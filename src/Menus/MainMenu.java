@@ -1,4 +1,5 @@
 package Menus;
+
 import java.util.Scanner;
 import java.util.ArrayList;
 
@@ -6,29 +7,30 @@ import Helpers.PrintHelpers;
 
 public class MainMenu {
     private Scanner scanner;
-    private static ArrayList<String> menuOptions = new ArrayList<String>() {{
-        add("1. Manage Members");
-        add("2. Manage Rentals");
-        add("3. Manage Drones");
-        add("4. Manage Inventory");
-        add("5. Manage Shipments");
-        add("6. Manage Payments\n");
+    private static ArrayList<String> menuOptions = new ArrayList<String>() {
+        {
+            add("1. Manage Members");
+            add("2. Manage Rentals");
+            add("3. Manage Drones");
+            add("4. Manage Inventory");
+            add("5. Manage Shipments");
+            add("6. Manage Payments\n");
 
-        add("7. Rent Equipment");
-        add("8. Return Equipment");
-        add("9. Delivery of Equipment");
-        add("10. Pickup of Equipment\n");
+            add("7. Rent Equipment");
+            add("8. Return Equipment");
+            add("9. Delivery of Equipment");
+            add("10. Pickup of Equipment\n");
 
-        add("11. Clear Outputs");
-        add("12. Exit Program");
-    }};
+            add("11. Clear Outputs");
+            add("12. Exit Program");
+        }
+    };
 
-    
     public MainMenu(Scanner scanner) {
         this.scanner = scanner;
     }
-    
-    public boolean prompt() {        
+
+    public boolean prompt() {
         PrintHelpers.printHeader("Main Menu");
         printMenu();
 
@@ -37,18 +39,16 @@ public class MainMenu {
             if (!scanner.hasNextInt()) {
                 String input = scanner.nextLine();
                 System.out.println(
-                    "Unknown option: \"" + input +"\"\n" + 
-                    "Please enter a number...\n"
-                );
+                        "Unknown option: \"" + input + "\"\n" +
+                                "Please enter a number...\n");
                 continue;
             }
 
             int input = scanner.nextInt();
             if (input < 1 || input > menuOptions.size()) {
                 System.out.println(
-                    "Unknown option: \"" + input +"\"\n" + 
-                    "Please choose one of the menu options...\n"
-                );
+                        "Unknown option: \"" + input + "\"\n" +
+                                "Please choose one of the menu options...\n");
                 continue;
             }
             return routeInput(input);
@@ -57,9 +57,8 @@ public class MainMenu {
 
     private static void printMenu() {
         System.out.println(
-            "\nPlease choose from one of the following options "+
-            "(enter the number corresponding to the desired option):"
-        );
+                "\nPlease choose from one of the following options " +
+                        "(enter the number corresponding to the desired option):");
 
         for (String option : menuOptions) {
             System.out.println("\t" + option);
@@ -103,7 +102,7 @@ public class MainMenu {
                 break;
 
             case 11: // Clear output
-                System.out.print("\033[H\033[2J");  
+                System.out.print("\033[H\033[2J");
                 System.out.flush();
                 break;
 

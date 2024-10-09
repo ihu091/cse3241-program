@@ -14,7 +14,7 @@ public class App {
         Scanner scanner = new Scanner(System.in);
         MainMenu mainMenu = new MainMenu(scanner);
         boolean continueProgram = true;
-        
+
         while (continueProgram) {
             continueProgram = mainMenu.prompt();
         }
