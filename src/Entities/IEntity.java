@@ -1,4 +1,6 @@
-package Models;
+package Entities;
+
+import java.util.Collection;
 
 public interface IEntity<T> {
     void add(T newEntity);
@@ -8,4 +10,6 @@ public interface IEntity<T> {
     void update(T entity);
 
     T findById(int id);
+
+    Collection<T> getAll();
 }
