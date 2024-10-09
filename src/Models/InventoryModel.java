@@ -1,24 +1,21 @@
 package Models;
 
-import java.sql.Date;
-
 public class InventoryModel {
-    public int RentalID;
     public int ItemID;
-    public int MemberID;
-    public int DeliveryID;
-    public Date StartDt;
-    public Date EndDt;
-    public double Fee;
+    public String Name;
+    public String Size;
+    public String Color;
+    public int WarehouseID;
+    public int ManufacturerID;
 
-    public InventoryModel(int rentalID, int itemID, int memberID, int deliveryID, Date startDt, Date endDt,
-            double fee) {
-        this.RentalID = rentalID;
+    public InventoryModel(int itemID, String name, String size, String color, int warehouseID, int manufacturerID) {
         this.ItemID = itemID;
-        this.MemberID = memberID;
-        this.DeliveryID = deliveryID;
-        this.StartDt = startDt;
-        this.EndDt = endDt;
-        this.Fee = fee;
+        this.Name = name;
+        this.Size = size;
+        this.Color = color;
+        this.WarehouseID = warehouseID;
+        this.ManufacturerID = manufacturerID;
     }
+
+    public InventoryModel() { }
 }

@@ -1,5 +1,7 @@
 package Helpers;
 
+import java.util.Scanner;
+
 public class InputVerifier {
     public static boolean isInteger(String str) {
         if (str == null) {
@@ -27,5 +29,33 @@ public class InputVerifier {
         }
 
         return true;
+    }
+
+    public static int getValidIntegerInput(Scanner scanner, String prompt, int min, int max) {
+        while (true) {
+            System.out.print(prompt);
+            if (!scanner.hasNextInt()) {
+                String input = scanner.nextLine();
+                System.out.println(
+                        "Unknown option: \"" + input + "\"\n" +
+                                "Please enter a number...\n");
+                continue;
+            }
+
+            int intInput = scanner.nextInt();
+            if (intInput < min || intInput > max) {
+                System.out.println(
+                        "Unknown option: \"" + intInput + "\"\n" +
+                                "Value outside of valid range, please choose number between "
+                                + min + "-" + max + "\n");
+                continue;
+            }
+            
+            if (scanner.hasNextLine()) {
+                scanner.nextLine();
+            }
+
+            return intInput;
+        }
     }
 }

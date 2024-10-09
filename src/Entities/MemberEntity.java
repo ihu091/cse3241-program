@@ -6,6 +6,10 @@ import Models.MemberModel;
 public class MemberEntity implements IEntity<MemberModel> {
     private ArrayList<MemberModel> tuples;
 
+    public MemberEntity() {
+        tuples = new ArrayList<MemberModel>();
+    }
+
     public void add(MemberModel newEntity) {
         tuples.add(newEntity);
     }

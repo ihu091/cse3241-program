@@ -3,72 +3,51 @@ package Menus;
 import java.util.Scanner;
 import java.util.ArrayList;
 
+import Helpers.InputVerifier;
 import Helpers.PrintHelpers;
 
 public class MainMenu {
     private Scanner scanner;
-    private static ArrayList<String> menuOptions = new ArrayList<String>() {
+    private ArrayList<String> menuOptions = new ArrayList<String>() {
         {
-            add("1. Manage Members");
+            add("1. Manage Members (implemented)");
             add("2. Manage Rentals");
             add("3. Manage Drones");
-            add("4. Manage Inventory");
+            add("4. Manage Inventory (implemented)");
             add("5. Manage Shipments");
             add("6. Manage Payments\n");
 
-            add("7. Rent Equipment");
-            add("8. Return Equipment");
-            add("9. Delivery of Equipment");
-            add("10. Pickup of Equipment\n");
+            add("7. Rent Equipment (partially implemented)");
+            add("8. Return Equipment (partially implemented)");
+            add("9. Delivery of Equipment (partially implemented)");
+            add("10. Pickup of Equipment (partially implemented)\n");
 
             add("11. Clear Outputs");
             add("12. Exit Program");
         }
     };
 
+    private ManageMembersMenu membersMenu;
+    private ManageInventoryMenu inventoryMenu;
+
     public MainMenu(Scanner scanner) {
         this.scanner = scanner;
+        membersMenu = new ManageMembersMenu(this.scanner);
+        inventoryMenu = new ManageInventoryMenu(scanner);
     }
 
     public boolean prompt() {
         PrintHelpers.printHeader("Main Menu");
-        printMenu();
+        PrintHelpers.printMenu(menuOptions);
 
-        while (true) {
-            System.out.print("Your Option: ");
-            if (!scanner.hasNextInt()) {
-                String input = scanner.nextLine();
-                System.out.println(
-                        "Unknown option: \"" + input + "\"\n" +
-                                "Please enter a number...\n");
-                continue;
-            }
-
-            int input = scanner.nextInt();
-            if (input < 1 || input > menuOptions.size()) {
-                System.out.println(
-                        "Unknown option: \"" + input + "\"\n" +
-                                "Please choose one of the menu options...\n");
-                continue;
-            }
-            return routeInput(input);
-        }
+        int userInput = InputVerifier.getValidIntegerInput(scanner, "Your Option: ", 1, menuOptions.size());
+        return routeInput(userInput);
     }
 
-    private static void printMenu() {
-        System.out.println(
-                "\nPlease choose from one of the following options " +
-                        "(enter the number corresponding to the desired option):");
-
-        for (String option : menuOptions) {
-            System.out.println("\t" + option);
-        }
-    }
-
-    private static boolean routeInput(int input) {
+    private boolean routeInput(int input) {
         switch (input) {
             case 1: // Manage Members
-                System.out.println("Option has not been implemented yet...\n");
+                membersMenu.prompt();
                 break;
             case 2: // Manage Rentals
                 System.out.println("Option has not been implemented yet...\n");
@@ -79,7 +58,7 @@ public class MainMenu {
                 break;
 
             case 4: // Manage Inventory
-                System.out.println("Option has not been implemented yet...\n");
+                inventoryMenu.prompt();
                 break;
             case 5: // Manage Shipments
                 System.out.println("Option has not been implemented yet...\n");

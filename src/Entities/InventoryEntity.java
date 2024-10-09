@@ -27,7 +27,7 @@ public class InventoryEntity implements IEntity<InventoryModel> {
     public void update(InventoryModel entity) {
         for (int i = 0; i < tuples.size(); i++) {
             InventoryModel existingEntity = tuples.get(i);
-            if (existingEntity.RentalID == entity.RentalID) {
+            if (existingEntity.ItemID == entity.ItemID) {
                 tuples.set(i, entity);
                 return;
             }
@@ -36,7 +36,7 @@ public class InventoryEntity implements IEntity<InventoryModel> {
 
     public InventoryModel findById(int id) {
         for (InventoryModel entity : tuples) {
-            if (entity.RentalID == id) {
+            if (entity.ItemID == id) {
                 return entity;
             }
         }

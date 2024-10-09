@@ -1,6 +1,6 @@
 package Models;
 
-import java.sql.Date;
+import java.util.Date;
 
 public class MemberModel {
     public int MemberID;
@@ -23,4 +23,6 @@ public class MemberModel {
         this.MembershipStartDt = membershipStartDt;
         this.MembershipStatus = membershipStatus;
     }
+
+    public MemberModel() { }
 }
