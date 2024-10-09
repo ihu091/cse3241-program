@@ -22,8 +22,10 @@ public class MainMenu {
             add("9. Delivery of Item (partially implemented)");
             add("10. Pickup of Item (partially implemented)\n");
 
-            add("11. Clear Outputs");
-            add("12. Exit Program");
+            add("11. Useful Reports\n");
+
+            add("12. Clear Outputs");
+            add("13. Exit Program");
         }
     };
 
@@ -104,13 +106,17 @@ public class MainMenu {
                 String pickerName = scanner.nextLine();
                 System.out.printf("Item #%d will be picked up by %s.\n\n", pickupItemId, pickerName);
                 break;
+
+            case 11: // Useful Reports
+                System.out.println("\nUseful reports has not been implemented yet...\n");
+                break;
                 
-            case 11: // Clear output
+            case 12: // Clear output
                 System.out.print("\033[H\033[2J");
                 System.out.flush();
                 break;
 
-            case 12: // Terminate program
+            case 13: // Terminate program
                 return false;
         }
         return true;
