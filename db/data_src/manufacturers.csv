@@ -1,9 +1,22 @@
 ManufacturerID,Name,Address,City
-1,GardenTogether,"91 East Second Circle, Hastings, MN 55033",Hastings
-2,StandardNetworks,"1 Pacific Street, Wilson, NC 27893",Wilson
-3,Plumbing'r'Us,"245 Longbranch St., Helotes, TX 78023",Helotes
-4,Water!,"245 Longbranch St., Helotes, TX 78023",Helotes
-5,ConstructionABC,"91 Wood Court, Clearwater, FL 33756",Clearwater
-6,ElectricDance,"44 Fawn Ave., Riverside, NJ 08075",Riverside
-7,Poopers!,"8740 N. Glenwood St., Powell, TN 37849",Powell
-8,Paint4Fun,"84 Fordham Drive, Sunnyside, NY 11104",Sunnyside
+1,GardenTogether,"217 Leatherwood Road, Lorton, VA 22079",Lorton
+2,StandardNetworks,"7131 South Summer Rd., Chesterfield, VA 23832",Chesterfield
+3,Plumbing'r'Us,"86 Rosewood Court, Oak Ridge, TN 37830",Oak Ridge
+4,Water!,"15 Cottage Ave., Carlisle, PA 17013",Carlisle
+5,ConstructionABC,"489 Highland St., Meriden, CT 06450",Meriden
+6,ElectricDance,"269 Holly St., Marshalltown, IA 50158",Marshalltown
+7,Poopers!,"59 Tunnel Street, Doylestown, PA 18901",Doylestown
+8,Paint4Fun,"8478 W. Washington Court, Lawrence, MA 01841",Lawrence
+9,Funky Furniture Factory,"59 Tunnel Street, Doylestown, PA 18901",Doylestown
+10,Snazzy Snacks Co.,"8642 North Paris Hill Street, Brick, NJ 08723",Brick
+11,Doodle Designs,"489 Highland St., Meriden, CT 06450",Meriden
+12,Playful Puzzles Inc.,"9718 St Louis Street, Manitowoc, WI 54220",Manitowoc
+13,Happy Hammers Ltd.,"15 Cottage Ave., Carlisle, PA 17013",Carlisle
+14,Jolly Jars Manufacturing,"413 Lancaster St., West Hempstead, NY 11552",West Hempstead
+15,Apex Manufacturing Solutions,"874 Primrose Rd., Nashville, TN 37205",Nashville
+16,Titan Industries Inc.,"8843 Albany Street, Severna Park, MD 21146",Severna Park
+17,Precision Engineering Group,"959 Temple Drive, Lincolnton, NC 28092",Lincolnton
+18,Vanguard Manufacturing Co.,"6 Arcadia St., Miamisburg, OH 45342",Miamisburg
+19,Elite Fabrication Services,"9980 Wild Horse St., Bellmore, NY 11710",Bellmore
+20,Summit Components Ltd.,"81 Illinois Lane, Allentown, PA 18102",Allentown
+21,ProTech Industries,"97 Blue Spring Drive, Clinton Township, MI 48035",Clinton Township

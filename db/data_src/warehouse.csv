@@ -1,11 +1,26 @@
 WarehouseID,Address,City,MaxCapacity
-1,"550 Riverside Court, Brighton, MA 02135",Brighton,600 sq. ft.
-2,"381 Harvard St., Skokie, IL 60076",Skokie,5600 sq. ft.
-3,"863 West Jackson Road, Glen Cove, NY 11542",Glen Cove,8800 sq. ft.
-4,"7567 NW. Edgewood St., Unit 9, Saratoga Springs, NY 12866",Unit 9,7400 sq. ft.
-5,"110 Airport Drive, Auburn, NY 13021",Auburn,1200 sq. ft.
-6,"9781 Greystone Street, Hollywood, FL 33020",Hollywood,3200 sq. ft.
-7,"863 West Jackson Road, Glen Cove, NY 11542",Glen Cove,6000 sq. ft.
-8,"49 Sutor Court, Montgomery Village, MD 20886",Montgomery Village,1900 sq. ft.
-9,"91 Wood Court, Clearwater, FL 33756",Clearwater,1600 sq. ft.
-10,"578 Penn Lane, Lafayette, IN 47905",Lafayette,7100 sq. ft.
+1,"97 Valley View Rd., Collegeville, PA 19426",Collegeville,7200 sq. ft.
+2,"1 Gonzales St., Janesville, WI 53546",Janesville,600 sq. ft.
+3,"67 North Linden Street, Little Rock, AR 72209",Little Rock,8500 sq. ft.
+4,"44 Fawn Ave., Riverside, NJ 08075",Riverside,600 sq. ft.
+5,"51 St Louis Street, Rahway, NJ 07065",Rahway,1900 sq. ft.
+6,"863 West Jackson Road, Glen Cove, NY 11542",Glen Cove,5600 sq. ft.
+7,"91 East Second Circle, Hastings, MN 55033",Hastings,9900 sq. ft.
+8,"245 Longbranch St., Helotes, TX 78023",Helotes,4100 sq. ft.
+9,"15 Arch Road, Englishtown, NJ 07726",Englishtown,9700 sq. ft.
+10,"1 Prince Road, Saint Petersburg, FL 33702",Saint Petersburg,9800 sq. ft.
+11,"1 Gonzales St., Janesville, WI 53546",Janesville,5000 sq. ft.
+12,"1 Pacific Street, Wilson, NC 27893",Wilson,200 sq. ft.
+13,"819 Poor House Drive, Nampa, ID 83651",Nampa,9900 sq. ft.
+14,"1 Gonzales St., Janesville, WI 53546",Janesville,4700 sq. ft.
+15,"954 Courtland Circle, New Kensington, PA 15068",New Kensington,2700 sq. ft.
+16,"7567 NW. Edgewood St., Unit 9, Saratoga Springs, NY 12866",Unit 9,6400 sq. ft.
+17,"63 Oklahoma Court, Miami, FL 33125",Miami,1700 sq. ft.
+18,"216 E. Stonybrook Ave., North Bergen, NJ 07047",North Bergen,6300 sq. ft.
+19,"110 Airport Drive, Auburn, NY 13021",Auburn,9000 sq. ft.
+20,"381 Harvard St., Skokie, IL 60076",Skokie,1800 sq. ft.
+21,"189 Redwood Ave., Westfield, MA 01085",Westfield,3200 sq. ft.
+22,"68 Delaware St., Zeeland, MI 49464",Zeeland,700 sq. ft.
+23,"550 Riverside Court, Brighton, MA 02135",Brighton,4200 sq. ft.
+24,"67 North Linden Street, Little Rock, AR 72209",Little Rock,600 sq. ft.
+25,"4 Chapel Ave., Atwater, CA 95301",Atwater,400 sq. ft.
