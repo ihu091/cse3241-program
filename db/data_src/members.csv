@@ -1,0 +1,70 @@
+MemberID,FName,LName,Address,PhoneNumber,Email,MembershipStartDt,MemberStatus
+39919,Mei,Sanchez,"9244 Hill Drive, Crown Point, IN 46307",+1 (739) 652-1446,Sanchez898928@osu.edu,2017-06-28,Cancelled
+28581,Liam,Baba,"670 North Willow Ave., Indiana, PA 15701",+1 (924) 154-9354,Baba267232@gmail.com,2003-07-24,Active
+72193,Emma,Zhang,"796 Creekside Ave., Bristol, CT 06010",+1 (261) 552-9526,thunderstorm_rider@terra.com.br,2023-07-15,Active
+96282,Noah,El-Sayed,"8190 Carpenter St., Pearl, MS 39208",+1 (118) 468-5859,El-sayed356226@osu.edu,2013-06-03,Active
+83412,Aaliyah,Heart,"635 Clark Ave., Farmington, MI 48331",+1 (662) 585-7439,aaliyah.heart.6094@buckeyemail.osu.edu,2001-12-03,Active
+55364,Elijah,Kumar,"85 State St., La Vergne, TN 37086",+1 (405) 447-6630,ElijahKumar5985@terra.com.br,2018-06-25,Cancelled
+49608,Li,Smith,"159 Dunbar Street, Cumming, GA 30040",+1 (758) 227-8945,li.smith.1384@aol.com,2022-06-16,Active
+63032,Lucas,Baba,"7357 Lakeshore St., Scotch Plains, NJ 07076",+1 (274) 485-9255,lucas_baba9145@verizon.net,2018-03-06,Active
+21539,Mia,El-Sayed,"7838 E. Lake View Street, Naples, FL 34116",+1 (598) 665-1183,mia.el-sayed.9250@verizon.net,2015-10-07,Inactive
+41794,Inez,Turner,"7393 Overlook Lane, East Hartford, CT 06118",+1 (738) 270-4057,inez.turner.8545@buckeyemail.osu.edu,2006-01-17,Expired
+61319,Yasmin,Kelly,"9358 Shady Street, Woburn, MA 01801",+1 (742) 955-1967,curious_willow99@hotmail.es,2018-11-27,Active
+75889,Ethan,Roberts,"635 Clark Ave., Farmington, MI 48331",+1 (520) 304-4797,EthanRoberts1723@aol.com,2000-08-30,Active
+63510,Charlotte,Stewart,"85 State St., La Vergne, TN 37086",+1 (878) 851-1293,CharlotteStewart7563@icloud.com,2010-03-20,Inactive
+7613,Aiden,Ibrahim,"7658 Helen Dr., Garfield, NJ 07026",+1 (689) 426-7315,cosmic_tornado44@aol.com,2018-03-29,Active
+66407,Amelia,Smith,"9318 Market Street, Lafayette, IN 47905",+1 (977) 543-3881,AmeliaSmith3527@icloud.com,2022-05-22,Active
+2996,James,Yamamoto,"655 Howard Rd., Midlothian, VA 23112",+1 (308) 868-3061,JamesYamamoto4564@buckeyemail.osu.edu,2021-09-05,Expired
+4381,Harper,Rodriguez,"227 South Ridge Drive, Apopka, FL 32703",+1 (795) 994-3089,harper_rodriguez2175@yahoo.com,2001-09-24,Active
+19242,Benjamin,Garcia,"314 Squaw Creek Dr., Colorado Springs, CO 80911",+1 (845) 987-4375,benjamin.garcia.5390@buckeyemail.osu.edu,2019-07-24,Active
+4355,Evelyn,Baba,"9318 Market Street, Lafayette, IN 47905",+1 (718) 209-1871,evelyn.baba.8683@icloud.com,2002-11-26,Inactive
+25379,Jacob,Baba,"7414 Mill Street, Pottstown, PA 19464",+1 (277) 231-3783,jacob.baba.8254@osu.edu,2007-01-08,Active
+3568,Abigail,Murphy,"159 Dunbar Street, Cumming, GA 30040",+1 (973) 324-3031,abigail.murphy.29@buckeyemail.osu.edu,2013-07-19,Active
+44130,Michael,Murphy,"95 Elm Lane, Eastlake, OH 44095",+1 (170) 962-5371,Murphy742305@gmail.com,2008-07-28,Active
+89110,Jordyn,White,"845 Wild Rose St., Merrillville, IN 46410",+1 (440) 853-3290,jordyn.white.4462@icloud.com,2012-02-15,Active
+74283,Daniel,Lee,"59 East Poor House Court, Lansdale, PA 19446",+1 (317) 356-8540,daniel.lee.7778@terra.com.br,1999-12-10,Active
+73359,Scarlett,Nguyen,"596 Bridgeton Street, Clarkston, MI 48348",+1 (493) 179-8522,Nguyen409997@aol.com,2001-03-29,Inactive
+42364,Matthew,Flores,"7838 E. Lake View Street, Naples, FL 34116",+1 (311) 915-2022,matthew.flores.3@aol.com,2017-06-11,Active
+43921,Grace,Wang,"75 West Elm Dr., Elkridge, MD 21075",+1 (184) 181-9189,grace_wang3910@verizon.net,2008-02-05,Active
+11184,Henry,Flores,"9836 Prospect Rd., Mount Laurel, NJ 08054",+1 (580) 600-1554,Flores256620@verizon.net,2019-12-09,Active
+71693,Hassan,Zhang,"8 W. Golf Ave., Chaska, MN 55318",+1 (899) 934-9735,hassan.zhang.5757@buckeyemail.osu.edu,2005-10-29,Active
+22752,Samuel,Patel,"903 Euclid Dr., New Hyde Park, NY 11040",+1 (483) 274-5239,Patel828341@cox.net,2016-08-22,Cancelled
+29137,Avery,Torres,"800 Buttonwood Street, Albany, NY 12203",+1 (541) 697-1973,AveryTorres5288@verizon.net,2002-08-05,Active
+35696,Jack,Bell,"8167 SE. Summit Ave., Fairmont, WV 26554",+1 (821) 198-4299,jack.bell.3111@aol.com,2004-03-17,Active
+83656,Sofia,Bailey,"461 Columbia Street, Saint Albans, NY 11412",+1 (647) 295-4204,sofia_bailey1394@yahoo.com,2005-04-28,Active
+25607,Alexander,Nelson,"655 Howard Rd., Midlothian, VA 23112",+1 (125) 967-8971,alexander.nelson.2593@icloud.com,2000-01-03,Active
+11680,Madison,Heart,"8607 Central Street, Delaware, OH 43015",+1 (404) 485-3890,joyful_explorer11@osu.edu,2006-10-27,Active
+86527,Wyatt,Brooks,"948 Dogwood Dr., Dorchester, MA 02125",+1 (303) 305-3982,clever_octopus22@cox.net,2015-07-02,Active
+44914,Emily,Walker,"9836 Prospect Rd., Mount Laurel, NJ 08054",+1 (951) 959-9635,emily.walker.8156@osu.edu,2021-01-14,Active
+42592,Travis,Turner,"85 State St., La Vergne, TN 37086",+1 (638) 577-5379,travis_turner9006@icloud.com,2022-12-15,Active
+34011,Santiago,Edwards,"7838 E. Lake View Street, Naples, FL 34116",+1 (789) 222-6437,santiago_edwards3443@osu.edu,2018-07-05,Inactive
+38877,Nathan,Zhang,"4 College Lane, Banning, CA 92220",+1 (119) 761-7517,NathanZhang5334@gmail.com,1999-10-01,Inactive
+13617,Lily,Singh,"7681 Pleasant St., Baton Rouge, LA 70806",+1 (961) 229-6638,Singh529473@verizon.net,1999-12-16,Cancelled
+62370,Omari,Heart,"96 Honey Creek St., Holly Springs, NC 27540",+1 (328) 577-7849,Heart269796@verizon.net,2020-03-17,Active
+95059,Nora,Gray,"4 College Lane, Banning, CA 92220",+1 (819) 985-1136,nora_gray6154@icloud.com,2016-01-04,Expired
+19734,David,Smith,"190 Glendale Court, Upper Marlboro, MD 20772",+1 (704) 357-3729,david_smith9886@yahoo.com,2022-03-27,Inactive
+27219,Ella,Sharma,"635 Clark Ave., Farmington, MI 48331",+1 (884) 146-8146,ella_sharma3297@gmail.com,2021-12-04,Active
+7549,Jasper,Rivera,"2 South Cleveland Ave., Union, NJ 07083",+1 (383) 533-3664,colorful_butterfly22@verizon.net,2016-02-14,Active
+3907,Owen,Kim,"596 Bridgeton Street, Clarkston, MI 48348",+1 (458) 392-3082,Kim816960@cox.net,2000-08-24,Active
+58960,Suki,Bailey,"49 Fairfield Street, Lakewood, NJ 08701",+1 (773) 136-1131,Bailey415413@cox.net,2021-08-03,Active
+84887,Caleb,Dimitrov,"227 South Ridge Drive, Apopka, FL 32703",+1 (796) 505-3575,Dimitrov25090@gmail.com,2007-10-09,Active
+80777,Nikolai,Torres,"948 Dogwood Dr., Dorchester, MA 02125",+1 (930) 757-9971,nikolai.torres.851@hotmail.es,2019-08-14,Active
+94667,Leo,Torres,"450 NE. Linda Ave., Saratoga Springs, NY 12866",+1 (589) 557-6312,leo_torres3124@aol.com,2023-02-15,Active
+68593,Jasmine,Garcia,"9836 Prospect Rd., Mount Laurel, NJ 08054",+1 (787) 134-2400,mysterious_fox33@hotmail.es,2015-06-26,Expired
+27722,Jordan,Iuka,"894 Military Court, Malvern, PA 19355",+1 (837) 910-4556,JordanIuka8864@terra.com.br,2013-06-27,Active
+10757,Zoe,Jackson,"800 Buttonwood Street, Albany, NY 12203",+1 (941) 826-8193,ZoeJackson7221@yahoo.co.uk,2016-12-24,Active
+30193,Ryan,Gray,"948 Dogwood Dr., Dorchester, MA 02125",+1 (472) 368-5429,ryan.gray.2737@buckeyemail.osu.edu,2006-09-02,Active
+11510,Penelope,Hwang,"450 NE. Linda Ave., Saratoga Springs, NY 12866",+1 (954) 161-2357,PenelopeHwang6585@yahoo.com,2010-10-21,Active
+56507,Gavin,Sanchez,"75 West Elm Dr., Elkridge, MD 21075",+1 (576) 682-6983,GavinSanchez1474@osu.edu,2011-12-06,Active
+10184,Luna,Wright,"96 Honey Creek St., Holly Springs, NC 27540",+1 (533) 838-7794,LunaWright3395@terra.com.br,2007-11-27,Active
+45261,Eli,Singh,"800 Buttonwood Street, Albany, NY 12203",+1 (751) 758-5516,eli_singh7763@icloud.com,2006-09-09,Active
+49536,Riley,Richardson,"450 NE. Linda Ave., Saratoga Springs, NY 12866",+1 (694) 417-6435,Richardson345487@aol.com,2000-08-17,Active
+96018,Isaiah,Richardson,"7807 East Beacon Ave., Apex, NC 27502",+1 (880) 838-4929,electric_tornado77@verizon.net,2016-09-11,Active
+8104,Samantha,King,"9836 Prospect Rd., Mount Laurel, NJ 08054",+1 (350) 139-9107,King421253@terra.com.br,2006-05-23,Active
+868,Dylan,Richardson,"9032 Grand Dr., Leesburg, VA 20175",+1 (389) 719-6785,Richardson440309@verizon.net,2013-10-24,Inactive
+31654,Victoria,Sanchez,"450 NE. Linda Ave., Saratoga Springs, NY 12866",+1 (252) 946-9110,Sanchez763811@osu.edu,2006-01-28,Expired
+84211,Hunter,Cook,"9358 Shady Street, Woburn, MA 01801",+1 (554) 337-7851,hidden_treasure2023@hotmail.com,2020-12-08,Active
+4276,Lydia,Parker,"450 NE. Linda Ave., Saratoga Springs, NY 12866",+1 (164) 181-3653,lydia_parker908@hotmail.es,2005-09-03,Active
+95681,Timothy,Hall,"7530 Prairie Court, Suffolk, VA 23434",+1 (509) 190-5796,colorful_butterfly22@yahoo.com,2023-09-13,Active
+16004,Stephanie,Collins,"7838 E. Lake View Street, Naples, FL 34116",+1 (353) 206-1449,StephanieCollins6120@terra.com.br,2010-08-12,Active
+78850,Dao,Hall,"8190 Carpenter St., Pearl, MS 39208",+1 (585) 144-8845,dao_hall3145@hotmail.es,2004-12-30,Active
