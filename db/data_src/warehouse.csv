@@ -1,0 +1,11 @@
+WarehouseID,Address,City,MaxCapacity
+1,"550 Riverside Court, Brighton, MA 02135",Brighton,600 sq. ft.
+2,"381 Harvard St., Skokie, IL 60076",Skokie,5600 sq. ft.
+3,"863 West Jackson Road, Glen Cove, NY 11542",Glen Cove,8800 sq. ft.
+4,"7567 NW. Edgewood St., Unit 9, Saratoga Springs, NY 12866",Unit 9,7400 sq. ft.
+5,"110 Airport Drive, Auburn, NY 13021",Auburn,1200 sq. ft.
+6,"9781 Greystone Street, Hollywood, FL 33020",Hollywood,3200 sq. ft.
+7,"863 West Jackson Road, Glen Cove, NY 11542",Glen Cove,6000 sq. ft.
+8,"49 Sutor Court, Montgomery Village, MD 20886",Montgomery Village,1900 sq. ft.
+9,"91 Wood Court, Clearwater, FL 33756",Clearwater,1600 sq. ft.
+10,"578 Penn Lane, Lafayette, IN 47905",Lafayette,7100 sq. ft.
