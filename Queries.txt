@@ -1,0 +1,63 @@
+-- a. Find the type of all Equipment by MANUFACTURER released after a certain YEAR.
+SELECT i.Type, m.Name AS Manufacturer, i.Year
+FROM INVENTORY i
+JOIN MANUFACTURER m ON i.ManufacturerID = m.ManufacturerID
+WHERE m.Name = 'GardenTogether' AND i.Year > 2020;
+
+-- b. Give all the equipment and the date(s) of their checkout from a specific MEMBER.
+SELECT i.Name AS Equipment, r.StartDt AS CheckoutDate
+FROM RENTALS r
+JOIN INVENTORY i ON r.ItemID = i.ItemID
+JOIN MEMBERS m ON r.MemberID = m.MemberID
+WHERE m.FName = 'Mei' AND m.LName = 'Sanchez';
+
+-- c. List all drones by weight capacity and unique identifiers with 2 or less units held by a specific WAREHOUSE.
+SELECT d.DroneID, d.WeightCapacity
+FROM DRONES d
+JOIN SHIPMENTS s ON d.DroneID = s.DroneID
+JOIN INVENTORY i ON s.RentalID = i.ItemID
+JOIN WAREHOUSE w ON i.WarehouseID = w.WarehouseID
+WHERE w.WarehouseID = '10'
+GROUP BY d.DroneID, d.WeightCapacity
+HAVING COUNT(d.DroneID) <= 2;
+
+-- d. Give all the members who live more than 15 miles away from the warehouse who checked out equipment delivered by a particular DRONE, along with the equipment they checked out.
+SELECT m.FName, m.LName, i.Name AS Equipment
+FROM MEMBERS m
+JOIN RENTALS r ON m.MemberID = r.MemberID
+JOIN INVENTORY i ON r.ItemID = i.ItemID
+JOIN SHIPMENTS s ON r.DeliveryID = s.DeliveryID
+JOIN DRONES d ON s.DroneID = d.DroneID
+JOIN WAREHOUSE w ON i.WarehouseID = w.WarehouseID
+WHERE d.DroneID = '10'
+  AND ST_Distance(m.Address, w.Address) > 15;
+
+-- e. Find the total number of unique drones that have picked up items checked out to a specific address.
+SELECT COUNT(DISTINCT s.DroneID) AS UniqueDrones
+FROM SHIPMENTS s
+JOIN RENTALS r ON s.RentalID = r.RentalID
+JOIN MEMBERS m ON r.MemberID = m.MemberID
+WHERE m.Address = '948 Dogwood Dr., Dorchester, MA 02125';
+
+-- f. Find the member who has checked out the most equipment and the total number of items they have checked out.
+SELECT m.FName, m.LName, COUNT(r.ItemID) AS TotalItemsCheckedOut
+FROM MEMBERS m
+JOIN RENTALS r ON m.MemberID = r.MemberID
+GROUP BY m.MemberID
+ORDER BY TotalItemsCheckedOut DESC
+LIMIT 1;
+
+-- g. Find the total quantity of equipment purchases in the last 6 months by equipment type, the total dollar amount for each type, and the average weight.
+SELECT i.Type, COUNT(r.ItemID) AS TotalQuantity, SUM(r.Fee) AS TotalDollarAmount, AVG(i.Size) AS AverageWeight
+FROM RENTALS r
+JOIN INVENTORY i ON r.ItemID = i.ItemID
+WHERE r.StartDt >= DATE_SUB(CURRENT_DATE, INTERVAL 6 MONTH)
+GROUP BY i.Type;
+
+-- h. Find the member who has checked out the most equipment and the total number of items they have checked out. (This is a duplicate of f, including here for clarity)
+SELECT m.FName, m.LName, COUNT(r.ItemID) AS TotalItemsCheckedOut
+FROM MEMBERS m
+JOIN RENTALS r ON m.MemberID = r.MemberID
+GROUP BY m.MemberID
+ORDER BY TotalItemsCheckedOut DESC
+LIMIT 1;
