@@ -1,7 +1,7 @@
 CREATE VIEW AvgEquipRating AS
-SELECT inv.ItemID, i.Name, AVG(er.Rating) AS AvgRating
+SELECT inv.ItemID, inv.Name, AVG(eq.Rating) AS AvgRating
 FROM INVENTORY inv
-JOIN EQUIPMENT_REVIEWS er ON inv.ItemID = eq.EquipmentID
+JOIN EQUIPMENT_REVIEWS eq ON inv.ItemID = eq.EquipmentID
 GROUP BY inv.ItemID, inv.Name;
 
 This view would list out different items available, alongside an average rating for each one. In the case of an administrator, it may be important to know which items are most popular among members. It could be used to update inventory, such as increasing the quantity of a given item if it has particularly high ratings. On a smaller scale, we may be able to see if there are any items that are in general more popular in the market, and leverage those findings against competitors.
