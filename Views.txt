@@ -4,12 +4,8 @@ FROM INVENTORY inv
 JOIN EQUIPMENT_REVIEWS eq ON inv.ItemID = eq.EquipmentID
 GROUP BY inv.ItemID, inv.Name;
 
-This view would list out different items available, alongside an average rating for each one. In the case of an administrator, it may be important to know which items are most popular among members. It could be used to update inventory, such as increasing the quantity of a given item if it has particularly high ratings. On a smaller scale, we may be able to see if there are any items that are in general more popular in the market, and leverage those findings against competitors.
-
 CREATE VIEW MantCostPerDrone AS
 SELECT dr.DroneID, dr.Model,SUM(dm.Cost) AS TotalMantCost
 FROM DRONES dr
 JOIN DRONE_MAINTENANCE dm ON dr.DroneID = dm.DroneID
 GROUP BY dr.DroneID, dr.Model;
-
-The view that would be created by the code above can calculate maintenance costs for drones. From an operations perspective, we can inspect which drones are most durable. This is important, as we can determine if we need to discharge certain drones after some point, or if new ones will be needed depending on how much it costs to maintain each one. It can also potentially be used to see if there are certain drones that may be more suited to carry out certain types of orders, though this may require further analysis
