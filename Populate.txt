@@ -1,3 +1,8 @@
+
+PRAGMA foreign_keys = off;
+BEGIN TRANSACTION;
+
+-- Table: DRONE_MAINTENANCE
 INSERT INTO DRONE_MAINTENANCE (MaintenanceID, DroneID, Date, Type, Cost) VALUES (1, 62, '2022-12-03', 'Inspection', 440);
 INSERT INTO DRONE_MAINTENANCE (MaintenanceID, DroneID, Date, Type, Cost) VALUES (2, 45, '2018-01-21', 'Inspection', 1890);
 INSERT INTO DRONE_MAINTENANCE (MaintenanceID, DroneID, Date, Type, Cost) VALUES (3, 11, '2010-06-10', 'Calibration', 2150);
@@ -198,6 +203,8 @@ INSERT INTO DRONE_MAINTENANCE (MaintenanceID, DroneID, Date, Type, Cost) VALUES 
 INSERT INTO DRONE_MAINTENANCE (MaintenanceID, DroneID, Date, Type, Cost) VALUES (198, 81, '2002-08-10', 'Software Management', 8360);
 INSERT INTO DRONE_MAINTENANCE (MaintenanceID, DroneID, Date, Type, Cost) VALUES (199, 11, '2008-01-14', 'Routine Maintenance', 4350);
 INSERT INTO DRONE_MAINTENANCE (MaintenanceID, DroneID, Date, Type, Cost) VALUES (200, 92, '2022-11-24', 'Routine Maintenance', 4370);
+
+-- Table: DRONES
 INSERT INTO DRONES (DroneID, Model, Status, BatteryLife, WeightCapacity, VolumeCapacity) VALUES (1, 'DLH-9638515324', 'Idle', 0.17, 10, 35);
 INSERT INTO DRONES (DroneID, Model, Status, BatteryLife, WeightCapacity, VolumeCapacity) VALUES (2, 'DLH-9638515324', 'Idle', 0.96, 10, 35);
 INSERT INTO DRONES (DroneID, Model, Status, BatteryLife, WeightCapacity, VolumeCapacity) VALUES (3, 'DLH-9638515324', 'In-Use', 0.98, 10, 35);
@@ -298,6 +305,8 @@ INSERT INTO DRONES (DroneID, Model, Status, BatteryLife, WeightCapacity, VolumeC
 INSERT INTO DRONES (DroneID, Model, Status, BatteryLife, WeightCapacity, VolumeCapacity) VALUES (98, 'MFE-2028033778', 'Idle', 0.52, 30, 15);
 INSERT INTO DRONES (DroneID, Model, Status, BatteryLife, WeightCapacity, VolumeCapacity) VALUES (99, 'MFE-2028033778', 'Idle', 0.91, 30, 15);
 INSERT INTO DRONES (DroneID, Model, Status, BatteryLife, WeightCapacity, VolumeCapacity) VALUES (100, 'MFE-2028033778', 'Idle', 0.39, 30, 15);
+
+-- Table: EQUIPMENT_REVIEWS
 INSERT INTO EQUIPMENT_REVIEWS (ReviewID, MemberID, EquipmentID, Date, Rating, Comments) VALUES (1, 16004, 79, '2024-03-06', 2, 'The rental terms were unclear, leading to confusion.');
 INSERT INTO EQUIPMENT_REVIEWS (ReviewID, MemberID, EquipmentID, Date, Rating, Comments) VALUES (2, 16004, 75, '2023-12-06', 2, 'I had a hard time getting the equipment to work properly.');
 INSERT INTO EQUIPMENT_REVIEWS (ReviewID, MemberID, EquipmentID, Date, Rating, Comments) VALUES (3, 84211, 173, '2023-09-23', 2, 'The handling of the equipment was cumbersome.');
@@ -489,6 +498,8 @@ INSERT INTO EQUIPMENT_REVIEWS (ReviewID, MemberID, EquipmentID, Date, Rating, Co
 INSERT INTO EQUIPMENT_REVIEWS (ReviewID, MemberID, EquipmentID, Date, Rating, Comments) VALUES (189, 89110, 122, '2023-10-17', 2, 'I had a hard time getting the equipment to work properly.');
 INSERT INTO EQUIPMENT_REVIEWS (ReviewID, MemberID, EquipmentID, Date, Rating, Comments) VALUES (190, 83656, 41, '2023-07-22', 2, 'The handling of the equipment was cumbersome.');
 INSERT INTO EQUIPMENT_REVIEWS (ReviewID, MemberID, EquipmentID, Date, Rating, Comments) VALUES (191, 4355, 122, '2024-04-07', 5, 'The setup was straightforward and easy to follow.');
+
+-- Table: INVENTORY
 INSERT INTO INVENTORY (ItemID, Name, Type, Size, Weight, Color, Year, WarehouseID, ManufacturerID) VALUES (1, 'Water Management Basics', 'Basics', '4', 3, 'Black', 2021, 19, 1);
 INSERT INTO INVENTORY (ItemID, Name, Type, Size, Weight, Color, Year, WarehouseID, ManufacturerID) VALUES (2, 'Advanced Painting Supplies', 'Supplies', '14', 3, 'Black', 2019, 6, 8);
 INSERT INTO INVENTORY (ItemID, Name, Type, Size, Weight, Color, Year, WarehouseID, ManufacturerID) VALUES (3, 'Irrigation Essentials Pack', 'Pack', '10', 8, 'Yellow', 2011, 22, 23);
@@ -689,6 +700,8 @@ INSERT INTO INVENTORY (ItemID, Name, Type, Size, Weight, Color, Year, WarehouseI
 INSERT INTO INVENTORY (ItemID, Name, Type, Size, Weight, Color, Year, WarehouseID, ManufacturerID) VALUES (198, 'Basic Electric Tools Pack', 'Pack', '13', 17, 'Brown', 2014, 22, 21);
 INSERT INTO INVENTORY (ItemID, Name, Type, Size, Weight, Color, Year, WarehouseID, ManufacturerID) VALUES (199, 'Gardening Starter Set', 'Set', '1', 1, 'Grey', 2024, 6, 23);
 INSERT INTO INVENTORY (ItemID, Name, Type, Size, Weight, Color, Year, WarehouseID, ManufacturerID) VALUES (200, 'ComNetwork Setup Bundle', 'Bundle', '9', 17, 'Black', 2010, 19, 19);
+
+-- Table: MANUFACTURER
 INSERT INTO MANUFACTURER (ManufacturerID, Name, Address, City) VALUES (1, 'GardenTogether', '217 Leatherwood Road, Lorton, VA 22079', 'Lorton');
 INSERT INTO MANUFACTURER (ManufacturerID, Name, Address, City) VALUES (2, 'StandardNetworks', '7131 South Summer Rd., Chesterfield, VA 23832', 'Chesterfield');
 INSERT INTO MANUFACTURER (ManufacturerID, Name, Address, City) VALUES (3, 'Plumbing''r''Us', '86 Rosewood Court, Oak Ridge, TN 37830', 'Oak Ridge');
@@ -710,6 +723,8 @@ INSERT INTO MANUFACTURER (ManufacturerID, Name, Address, City) VALUES (18, 'Vang
 INSERT INTO MANUFACTURER (ManufacturerID, Name, Address, City) VALUES (19, 'Elite Fabrication Services', '9980 Wild Horse St., Bellmore, NY 11710', 'Bellmore');
 INSERT INTO MANUFACTURER (ManufacturerID, Name, Address, City) VALUES (20, 'Summit Components Ltd.', '81 Illinois Lane, Allentown, PA 18102', 'Allentown');
 INSERT INTO MANUFACTURER (ManufacturerID, Name, Address, City) VALUES (21, 'ProTech Industries', '97 Blue Spring Drive, Clinton Township, MI 48035', 'Clinton Township');
+
+-- Table: MEMBERS
 INSERT INTO MEMBERS (MemberID, FName, LName, Address, PhoneNumber, Email, MembershipStartDt, MemberStatus) VALUES (39919, 'Mei', 'Sanchez', '9244 Hill Drive, Crown Point, IN 46307', '+1 (739) 652-1446', 'Sanchez898928@osu.edu', '2017-06-28', 'Cancelled');
 INSERT INTO MEMBERS (MemberID, FName, LName, Address, PhoneNumber, Email, MembershipStartDt, MemberStatus) VALUES (28581, 'Liam', 'Baba', '670 North Willow Ave., Indiana, PA 15701', '+1 (924) 154-9354', 'Baba267232@gmail.com', '2003-07-24', 'Active');
 INSERT INTO MEMBERS (MemberID, FName, LName, Address, PhoneNumber, Email, MembershipStartDt, MemberStatus) VALUES (72193, 'Emma', 'Zhang', '796 Creekside Ave., Bristol, CT 06010', '+1 (261) 552-9526', 'thunderstorm_rider@terra.com.br', '2023-07-15', 'Active');
@@ -779,6 +794,8 @@ INSERT INTO MEMBERS (MemberID, FName, LName, Address, PhoneNumber, Email, Member
 INSERT INTO MEMBERS (MemberID, FName, LName, Address, PhoneNumber, Email, MembershipStartDt, MemberStatus) VALUES (95681, 'Timothy', 'Hall', '7530 Prairie Court, Suffolk, VA 23434', '+1 (509) 190-5796', 'colorful_butterfly22@yahoo.com', '2023-09-13', 'Active');
 INSERT INTO MEMBERS (MemberID, FName, LName, Address, PhoneNumber, Email, MembershipStartDt, MemberStatus) VALUES (16004, 'Stephanie', 'Collins', '7838 E. Lake View Street, Naples, FL 34116', '+1 (353) 206-1449', 'StephanieCollins6120@terra.com.br', '2010-08-12', 'Active');
 INSERT INTO MEMBERS (MemberID, FName, LName, Address, PhoneNumber, Email, MembershipStartDt, MemberStatus) VALUES (78850, 'Dao', 'Hall', '8190 Carpenter St., Pearl, MS 39208', '+1 (585) 144-8845', 'dao_hall3145@hotmail.es', '2004-12-30', 'Active');
+
+-- Table: PAYMENTS
 INSERT INTO PAYMENTS (PaymentID, MemberID, RentalID, DateTime, Amount, Method, Status) VALUES (1, 71693, 1, '2019-01-05 12:29:31', 2387, 'Credit Card', 'Processing');
 INSERT INTO PAYMENTS (PaymentID, MemberID, RentalID, DateTime, Amount, Method, Status) VALUES (2, 16004, 2, '2019-09-14 13:59:22', 4596, 'PayPal', 'Completed');
 INSERT INTO PAYMENTS (PaymentID, MemberID, RentalID, DateTime, Amount, Method, Status) VALUES (3, 84211, 3, '2022-04-16 02:25:23', 4572, 'Credit Card', 'Completed');
@@ -1366,6 +1383,8 @@ INSERT INTO PAYMENTS (PaymentID, MemberID, RentalID, DateTime, Amount, Method, S
 INSERT INTO PAYMENTS (PaymentID, MemberID, RentalID, DateTime, Amount, Method, Status) VALUES (585, 11680, 498, '2023-11-25 13:48:10', 2511, 'PayPal', 'Completed');
 INSERT INTO PAYMENTS (PaymentID, MemberID, RentalID, DateTime, Amount, Method, Status) VALUES (586, 4355, 499, '2019-04-30 06:40:37', 3246, 'CashApp', 'Completed');
 INSERT INTO PAYMENTS (PaymentID, MemberID, RentalID, DateTime, Amount, Method, Status) VALUES (587, 4381, 500, '2020-08-11 05:47:04', 2624, 'CashApp', 'Completed');
+
+-- Table: RENTAL_REVIEWS
 INSERT INTO RENTAL_REVIEWS (ReviewID, MemberID, RentalID, Date, Rating, Comments) VALUES (1, 71693, 1, '2019-01-11', 3, 'The rental duration was not flexible at all.');
 INSERT INTO RENTAL_REVIEWS (ReviewID, MemberID, RentalID, Date, Rating, Comments) VALUES (2, 16004, 2, '2021-11-28', 5, 'I was very happy with the entire process.');
 INSERT INTO RENTAL_REVIEWS (ReviewID, MemberID, RentalID, Date, Rating, Comments) VALUES (3, 3568, 4, '2024-12-05', 2, 'I received no follow-up after my rental.');
@@ -1452,6 +1471,8 @@ INSERT INTO RENTAL_REVIEWS (ReviewID, MemberID, RentalID, Date, Rating, Comments
 INSERT INTO RENTAL_REVIEWS (ReviewID, MemberID, RentalID, Date, Rating, Comments) VALUES (84, 19242, 480, '2019-10-07', 5, 'Very satisfied with my rental experience.');
 INSERT INTO RENTAL_REVIEWS (ReviewID, MemberID, RentalID, Date, Rating, Comments) VALUES (85, 84211, 486, '2024-09-16', 5, 'The rental helped me complete my project on time.');
 INSERT INTO RENTAL_REVIEWS (ReviewID, MemberID, RentalID, Date, Rating, Comments) VALUES (86, 68593, 488, '2023-01-25', 5, 'Quick response times and great communication.');
+
+-- Table: RENTALS
 INSERT INTO RENTALS (RentalID, ItemID, MemberID, StartDt, EndDt, Fee) VALUES (1, 90, 71693, '2019-01-05', '2020-12-29', 2387);
 INSERT INTO RENTALS (RentalID, ItemID, MemberID, StartDt, EndDt, Fee) VALUES (2, 79, 16004, '2019-09-14', '2025-12-27', 4596);
 INSERT INTO RENTALS (RentalID, ItemID, MemberID, StartDt, EndDt, Fee) VALUES (3, 161, 84211, '2022-04-16', '2023-02-19', 4572);
@@ -1952,6 +1973,8 @@ INSERT INTO RENTALS (RentalID, ItemID, MemberID, StartDt, EndDt, Fee) VALUES (49
 INSERT INTO RENTALS (RentalID, ItemID, MemberID, StartDt, EndDt, Fee) VALUES (498, 152, 11680, '2023-11-25', '2024-11-11', 2511);
 INSERT INTO RENTALS (RentalID, ItemID, MemberID, StartDt, EndDt, Fee) VALUES (499, 122, 4355, '2019-04-30', '2025-02-19', 3246);
 INSERT INTO RENTALS (RentalID, ItemID, MemberID, StartDt, EndDt, Fee) VALUES (500, 47, 4381, '2020-08-11', '2023-05-01', 2624);
+
+-- Table: SHIPMENTS
 INSERT INTO SHIPMENTS (DeliveryID, RentalID, EstDeliveryDt, Status, Address, DroneID, Type, Distance) VALUES (1, 1, '2022-02-26', 'Completed', '948 Dogwood Dr., Dorchester, MA 02125', 42, 'Delivery', 9);
 INSERT INTO SHIPMENTS (DeliveryID, RentalID, EstDeliveryDt, Status, Address, DroneID, Type, Distance) VALUES (2, 2, '2020-05-06', 'Completed', '492 East Purple Finch Road, Parlin, NJ 08859', 14, 'Delivery', 9);
 INSERT INTO SHIPMENTS (DeliveryID, RentalID, EstDeliveryDt, Status, Address, DroneID, Type, Distance) VALUES (3, 3, '2022-09-19', 'Completed', '59 East Poor House Court, Lansdale, PA 19446', 73, 'Delivery', 8);
@@ -2608,6 +2631,8 @@ INSERT INTO SHIPMENTS (DeliveryID, RentalID, EstDeliveryDt, Status, Address, Dro
 INSERT INTO SHIPMENTS (DeliveryID, RentalID, EstDeliveryDt, Status, Address, DroneID, Type, Distance) VALUES (654, 498, '2024-09-12', 'Completed', '98 Beacon Lane, Wheeling, WV 26003', 2, 'Delivery', 17);
 INSERT INTO SHIPMENTS (DeliveryID, RentalID, EstDeliveryDt, Status, Address, DroneID, Type, Distance) VALUES (655, 499, '2022-01-31', 'Completed', '49 Fairfield Street, Lakewood, NJ 08701', 54, 'Delivery', 37);
 INSERT INTO SHIPMENTS (DeliveryID, RentalID, EstDeliveryDt, Status, Address, DroneID, Type, Distance) VALUES (656, 500, '2024-05-29', 'In Transit', '8167 SE. Summit Ave., Fairmont, WV 26554', 88, 'Delivery', 20);
+
+-- Table: WAREHOUSE
 INSERT INTO WAREHOUSE (WarehouseID, Address, City, MaxCapacity) VALUES (1, '97 Valley View Rd., Collegeville, PA 19426', 'Collegeville', '7200 sq. ft.');
 INSERT INTO WAREHOUSE (WarehouseID, Address, City, MaxCapacity) VALUES (2, '1 Gonzales St., Janesville, WI 53546', 'Janesville', '600 sq. ft.');
 INSERT INTO WAREHOUSE (WarehouseID, Address, City, MaxCapacity) VALUES (3, '67 North Linden Street, Little Rock, AR 72209', 'Little Rock', '8500 sq. ft.');
