@@ -1,0 +1,192 @@
+ReviewID,MemberID,EquipmentID,Date,Rating,Comments
+1,16004,79,2024-03-06,2,"The rental terms were unclear, leading to confusion."
+2,16004,75,2023-12-06,2,I had a hard time getting the equipment to work properly.
+3,84211,173,2023-09-23,2,The handling of the equipment was cumbersome.
+4,19734,154,2022-03-08,1,The equipment was not in great condition upon arrival.
+5,44130,91,2024-03-04,1,The delivery person was late and unprofessional.
+6,44130,97,2022-09-22,5,I appreciate the prompt and friendly service!
+7,78850,95,2021-03-27,1,Customer support was unresponsive when I needed help.
+8,19734,87,2023-08-23,1,Customer support was unresponsive when I needed help.
+9,27219,32,2024-10-13,5,"The rental process was fast and efficient, highly recommend!"
+10,84211,95,2022-05-21,2,I had a hard time getting the equipment to work properly.
+11,7613,97,2021-10-26,2,I encountered issues with the setup instructions.
+12,43921,92,2023-12-16,5,I appreciate the excellent customer service provided.
+13,43921,142,2024-08-27,1,I would not recommend based on my last rental experience.
+14,31654,80,2024-07-10,2,The handling of the equipment was cumbersome.
+15,29137,35,2024-11-01,2,The service did not meet my expectations this time.
+16,83412,170,2024-11-11,5,I loved the versatility and features of the item.
+17,44914,14,2024-01-05,5,The staff was very knowledgeable and helped me choose the right tools.
+18,96282,37,2024-08-04,5,I found the equipment easy to operate and very effective.
+19,74283,45,2024-11-15,1,The item broke down just as I was starting my project.
+20,78850,144,2024-02-27,2,The overall experience did not meet my expectations.
+21,4355,121,2022-09-13,1,The equipment was not cleaned properly before delivery.
+22,63510,156,2021-07-15,5,I appreciate the excellent customer service provided.
+23,2996,157,2023-09-14,1,I received a different model than what I ordered.
+24,11510,143,2021-07-05,5,The equipment was top-notch and worked perfectly!
+25,44130,93,2024-08-27,1,I would not recommend based on my last rental experience.
+26,44914,61,2021-09-06,5,I loved how easy it was to book and rent the equipment.
+27,61319,194,2021-05-18,5,This is my go-to rental service from now on!
+28,7549,12,2021-08-08,5,The rental made a huge difference in the success of my project!
+29,80777,173,2024-07-09,5,This is my go-to rental service from now on!
+30,96018,71,2022-02-23,1,I received a different model than what I ordered.
+31,78850,160,2023-10-04,3,The item was heavy and hard to transport.
+32,71693,156,2023-08-28,1,I wouldn't recommend this rental service based on my experience.
+33,68593,116,2022-09-04,1,The equipment was not cleaned properly before delivery.
+34,95681,143,2024-05-20,5,I had an excellent experience; the equipment was exactly what I needed!
+35,73359,61,2023-12-17,2,I had difficulty contacting support for a quick fix.
+36,7549,19,2024-06-08,5,I appreciate the prompt and friendly service!
+37,31654,30,2024-09-12,2,I was let down by the performance of the equipment.
+38,95681,163,2020-11-27,2,"The equipment broke down during use, causing delays."
+39,21539,144,2024-06-04,5,"Great value for the price, will rent again."
+40,42364,189,2024-06-22,3,The item was heavy and hard to transport.
+41,96018,136,2020-07-20,2,The service did not meet my expectations this time.
+42,84211,19,2019-08-11,2,The equipment was outdated and not very reliable.
+43,83412,75,2024-08-11,5,Highly recommend this equipment for anyone's needs!
+44,41794,103,2024-08-01,5,This is my go-to rental service from now on!
+45,73359,196,2024-07-16,2,There were some technical issues that delayed my project.
+46,28581,184,2022-08-16,2,There were some technical issues that delayed my project.
+47,4276,49,2022-05-05,2,I had a hard time getting the equipment to work properly.
+48,34011,28,2020-02-16,5,Highly recommend this equipment for anyone's needs!
+49,89110,122,2022-02-19,3,The item was heavy and hard to transport.
+50,10757,61,2024-09-24,5,"Great value for the price, will rent again."
+51,42364,136,2022-01-23,5,The rental process was simple and efficient!
+52,43921,57,2023-04-14,5,The setup was straightforward and easy to follow.
+53,49536,109,2023-05-20,2,There were some technical issues that delayed my project.
+54,8104,9,2022-04-20,2,I was let down by the performance of the equipment.
+55,61319,183,2024-09-20,5,The setup was straightforward and easy to follow.
+56,72193,44,2023-09-03,1,The delivery person was late and unprofessional.
+57,19242,147,2019-09-01,5,The equipment was top-notch and worked perfectly!
+58,7549,11,2024-06-03,5,I was surprised by how easy the equipment was to use.
+59,86527,57,2023-05-12,1,I would not recommend based on my last rental experience.
+60,7549,179,2024-10-28,1,I received a different model than what I ordered.
+61,42592,158,2024-11-16,5,I felt confident using the equipment right away.
+62,16004,43,2023-11-14,2,The service did not meet my expectations this time.
+63,38877,143,2024-09-11,1,The delivery person was late and unprofessional.
+64,30193,70,2021-10-08,1,The delivery person was late and unprofessional.
+65,16004,11,2023-07-18,5,Highly recommend this equipment for anyone's needs!
+66,21539,76,2024-07-27,5,"Everything worked perfectly, no complaints here!"
+67,78850,194,2024-11-21,1,The delivery person was late and unprofessional.
+68,19242,90,2024-10-25,2,"The equipment broke down during use, causing delays."
+69,61319,185,2022-12-04,5,The rental made a huge difference in the success of my project!
+70,30193,173,2024-03-06,5,The performance exceeded my expectations!
+71,19242,71,2024-04-08,5,"The equipment was exactly as described, no surprises."
+72,27219,133,2024-02-04,5,I loved the versatility and features of the item.
+73,27722,11,2024-08-27,2,"The rental terms were unclear, leading to confusion."
+74,19242,26,2024-04-01,1,I faced unexpected fees that I wasn't informed about.
+75,86527,77,2024-08-22,2,The staff didn’t seem very knowledgeable about the equipment.
+76,56507,91,2023-11-10,5,Customer service was very helpful in answering my questions.
+77,3568,176,2021-12-10,2,The instructions were poorly written and confusing.
+78,13617,47,2023-06-10,5,The setup was straightforward and easy to follow.
+79,27722,153,2024-02-23,5,Highly recommend this equipment for anyone's needs!
+80,31654,24,2024-10-16,1,I experienced several malfunctions during use.
+81,7613,158,2023-06-06,5,This rental made my project so much easier!
+82,86527,38,2024-03-31,5,"The rental process was fast and efficient, highly recommend!"
+83,66407,54,2022-08-25,2,"The rental terms were unclear, leading to confusion."
+84,42364,186,2024-02-25,2,"The equipment arrived late, which was frustrating."
+85,13617,184,2023-03-06,1,I received a different model than what I ordered.
+86,49608,25,2022-02-11,3,I found the quality to be lacking for the price.
+87,49608,112,2023-01-14,5,I appreciate the excellent customer service provided.
+88,84887,135,2021-10-19,5,The quality was outstanding for the rental price.
+89,63510,131,2024-01-15,2,"The rental terms were unclear, leading to confusion."
+90,71693,39,2021-10-28,3,The item was heavy and hard to transport.
+91,7613,51,2024-03-17,2,The pickup process was chaotic and unorganized.
+92,83656,182,2023-11-11,1,I faced unexpected fees that I wasn't informed about.
+93,22752,106,2024-01-01,5,The quality was outstanding for the rental price.
+94,86527,123,2023-02-12,3,The item was heavy and hard to transport.
+95,10757,185,2022-12-14,5,"The equipment was exactly as described, no surprises."
+96,39919,86,2024-11-16,5,This rental made my project so much easier!
+97,4381,64,2024-10-10,2,The staff didn’t seem very knowledgeable about the equipment.
+98,27722,179,2023-12-05,5,This is my go-to rental service from now on!
+99,43921,168,2020-01-27,1,I would not recommend based on my last rental experience.
+100,31654,22,2022-10-11,5,The rental process was simple and efficient!
+101,78850,49,2023-02-06,5,The rental process was simple and efficient!
+102,95059,164,2024-09-30,5,This rental made my project so much easier!
+103,21539,28,2023-01-23,1,The item broke down just as I was starting my project.
+104,49608,52,2021-09-15,1,The equipment was not in great condition upon arrival.
+105,4276,189,2024-10-03,5,I had an excellent experience; the equipment was exactly what I needed!
+106,95059,21,2021-06-14,5,Everything arrived clean and in excellent condition.
+107,63032,112,2023-11-19,1,I faced unexpected fees that I wasn't informed about.
+108,7549,177,2024-06-17,5,I felt confident using the equipment right away.
+109,13617,69,2024-07-18,2,"The equipment arrived late, which was frustrating."
+110,75889,50,2022-02-10,5,The staff was very knowledgeable and helped me choose the right tools.
+111,83656,38,2022-11-05,2,I had a hard time getting the equipment to work properly.
+112,38877,158,2023-08-18,1,The delivery person was late and unprofessional.
+113,71693,136,2024-02-02,2,"The equipment broke down during use, causing delays."
+114,4381,5,2024-03-31,2,The instructions were poorly written and confusing.
+115,39919,197,2024-09-11,5,I had no issues during my rental period at all!
+116,95681,1,2023-09-21,5,This is my go-to rental service from now on!
+117,44130,79,2024-07-02,5,The staff was very knowledgeable and helped me choose the right tools.
+118,84211,135,2023-04-26,5,"The equipment was exactly as described, no surprises."
+119,44914,143,2024-12-07,2,The handling of the equipment was cumbersome.
+120,8104,84,2022-12-28,5,"Fantastic experience, everything worked smoothly!"
+121,7549,70,2024-02-02,1,The delivery person was late and unprofessional.
+122,58960,4,2024-09-12,1,"The item was not as described, which was disappointing."
+123,42364,107,2023-06-18,2,I was let down by the performance of the equipment.
+124,8104,28,2022-08-01,1,I experienced several malfunctions during use.
+125,4381,136,2024-03-20,2,The service did not meet my expectations this time.
+126,10184,189,2024-08-15,5,The equipment performed flawlessly throughout the project.
+127,63510,146,2024-04-07,5,Everything arrived clean and in excellent condition.
+128,96282,21,2022-05-29,1,I experienced several malfunctions during use.
+129,61319,12,2023-09-05,5,"Everything worked perfectly, no complaints here!"
+130,56507,161,2024-11-13,3,The item was heavy and hard to transport.
+131,44130,194,2022-02-23,1,I would not recommend based on my last rental experience.
+132,35696,98,2023-12-24,2,The equipment was outdated and not very reliable.
+133,84887,71,2022-01-12,5,The item was exactly what I needed for my event.
+134,7613,39,2024-06-22,2,The instructions were poorly written and confusing.
+135,25607,99,2023-10-08,5,I loved how easy it was to book and rent the equipment.
+136,8104,173,2024-12-03,2,"The equipment broke down during use, causing delays."
+137,74283,124,2022-05-06,5,"The equipment was exactly as described, no surprises."
+138,80777,83,2023-09-22,5,The equipment was top-notch and worked perfectly!
+139,31654,82,2023-03-14,5,I had an excellent experience; the equipment was exactly what I needed!
+140,2996,23,2023-02-11,1,I experienced several malfunctions during use.
+141,95059,95,2024-02-26,2,The pickup was more difficult than expected.
+142,19734,54,2023-04-05,1,I wouldn't recommend this rental service based on my experience.
+143,4381,52,2023-09-18,5,I had no issues during my rental period at all!
+144,27722,38,2023-06-06,5,This is my go-to rental service from now on!
+145,84887,126,2021-06-08,2,The pickup process was chaotic and unorganized.
+146,89110,166,2020-03-03,1,I faced unexpected fees that I wasn't informed about.
+147,10184,10,2024-06-16,5,The rental made a huge difference in the success of my project!
+148,868,73,2024-11-30,1,I would not recommend based on my last rental experience.
+149,16004,52,2024-05-19,2,I encountered issues with the setup instructions.
+150,74283,182,2022-05-21,1,I experienced several malfunctions during use.
+151,44130,175,2023-02-21,1,I experienced several malfunctions during use.
+152,68593,123,2024-06-22,1,"The item was not as described, which was disappointing."
+153,11680,147,2024-11-14,2,The overall experience did not meet my expectations.
+154,49536,154,2024-11-17,5,The quality was outstanding for the rental price.
+155,63510,81,2023-10-11,5,The quality was outstanding for the rental price.
+156,41794,135,2024-02-29,1,I wouldn't recommend this rental service based on my experience.
+157,95681,194,2023-04-07,2,The pickup was more difficult than expected.
+158,49608,107,2024-11-23,2,The pickup was more difficult than expected.
+159,74283,78,2019-11-19,2,"The rental terms were unclear, leading to confusion."
+160,44914,13,2024-09-29,5,Everything was delivered on time and as promised.
+161,30193,73,2022-10-13,1,"The item was not as described, which was disappointing."
+162,27219,83,2024-11-06,2,The instructions were poorly written and confusing.
+163,29137,117,2022-10-16,3,I found the quality to be lacking for the price.
+164,96018,52,2024-08-02,5,Everything arrived clean and in excellent condition.
+165,72193,52,2024-08-27,5,"Great value for the price, will rent again."
+166,25607,196,2023-07-17,5,The item was exactly what I needed for my event.
+167,19242,75,2021-08-08,5,The rental made a huge difference in the success of my project!
+168,94667,28,2024-03-29,2,"The equipment arrived late, which was frustrating."
+169,7613,63,2024-04-25,5,I was surprised by how easy the equipment was to use.
+170,35696,87,2024-08-17,1,The equipment was not in great condition upon arrival.
+171,22752,71,2024-10-11,5,Everything arrived clean and in excellent condition.
+172,868,181,2022-06-19,5,"Great value for the price, will rent again."
+173,2996,103,2024-01-29,5,I had an excellent experience; the equipment was exactly what I needed!
+174,63032,180,2021-09-05,5,I had no issues during my rental period at all!
+175,61319,123,2023-07-28,2,The pickup was more difficult than expected.
+176,13617,64,2024-10-13,5,I was impressed with the quality and durability.
+177,83656,156,2023-12-27,5,The rental process was simple and efficient!
+178,31654,190,2024-03-10,5,"Everything worked perfectly, no complaints here!"
+179,25607,195,2024-04-05,1,I faced unexpected fees that I wasn't informed about.
+180,25379,5,2024-08-20,3,The item was heavy and hard to transport.
+181,66407,183,2024-08-21,1,The equipment was not in great condition upon arrival.
+182,75889,83,2024-11-01,2,The overall experience did not meet my expectations.
+183,84887,72,2019-07-08,2,The equipment was outdated and not very reliable.
+184,49536,159,2024-02-13,2,I encountered issues with the setup instructions.
+185,31654,120,2021-04-12,5,This is my go-to rental service from now on!
+186,868,158,2021-12-17,2,"The rental terms were unclear, leading to confusion."
+187,3568,134,2024-06-09,5,The rental process was simple and efficient!
+188,16004,121,2024-09-21,5,Everything was delivered on time and as promised.
+189,89110,122,2023-10-17,2,I had a hard time getting the equipment to work properly.
+190,83656,41,2023-07-22,2,The handling of the equipment was cumbersome.
+191,4355,122,2024-04-07,5,The setup was straightforward and easy to follow.
