@@ -14,7 +14,6 @@ CREATE TABLE RENTALS (
     RentalID INT NOT NULL,
     ItemID INT NOT NULL,
     MemberID INT NOT NULL,
-    DeliveryID INT NOT NULL,
     StartDt DATE NOT NULL,
     EndDt DATE NOT NULL,
     Fee DECIMAL(10, 2) NOT NULL,
@@ -24,8 +23,11 @@ CREATE TABLE RENTALS (
 CREATE TABLE INVENTORY (
     ItemID INT NOT NULL,
     Name VARCHAR(100) NOT NULL,
+    Type VARCHAR(20),
     Size VARCHAR(10) NOT NULL,
+    Weight INT NOT NULL,
     Color VARCHAR(10),
+    Year INT,
     WarehouseID INT,
     ManufacturerID INT,
     PRIMARY KEY (ItemID)
@@ -63,7 +65,8 @@ CREATE TABLE DRONES (
     Model VARCHAR(20),
     Status VARCHAR(10),
     BatteryLife DECIMAL(3, 2),
-    Capacity VARCHAR(20),
+    WeightCapacity INT,
+    VolumeCapacity INT,
     PRIMARY KEY (DroneID)
 );
 
@@ -78,11 +81,13 @@ CREATE TABLE DRONE_MAINTENANCE (
 
 CREATE TABLE SHIPMENTS (
     DeliveryID INT,
+    RentalID INT,
     EstDeliveryDt DATE,
     Status VARCHAR(10),
     Address VARCHAR(200),
     DroneID INT,
     Type VARCHAR(20),
+    Distance INT,
     PRIMARY KEY (DeliveryID)
 );
 

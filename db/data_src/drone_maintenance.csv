@@ -1,0 +1,201 @@
+MaintenanceID,DroneID,Date,Type,Cost
+1,62,2022-12-03,Inspection,440
+2,45,2018-01-21,Inspection,1890
+3,11,2010-06-10,Calibration,2150
+4,76,2004-09-20,Routine Maintenance,5090
+5,62,2022-12-21,General Repairs,310
+6,7,2003-03-01,Firmware Update,5930
+7,95,2011-07-04,Calibration,1410
+8,68,2016-04-27,Software Update,4910
+9,39,2008-06-09,Sensors Repairs,8600
+10,15,2020-01-20,Cleaning,5040
+11,1,2023-01-24,Cleaning,6640
+12,99,2018-10-29,Component Upgrades,9640
+13,38,2010-02-06,Routine Maintenance,1030
+14,90,2019-03-09,Inspection,9860
+15,24,2020-10-22,Routine Maintenance,7560
+16,33,2019-12-05,General Repairs,6980
+17,3,2004-03-30,Camera Repairs,5730
+18,91,2023-11-17,Routine Maintenance,9050
+19,89,2002-09-13,Software Update,8870
+20,26,2008-02-29,Software Update,6730
+21,92,2018-03-25,Routine Maintenance,8920
+22,41,2001-08-19,Software Update,1780
+23,41,2010-12-20,General Repairs,5670
+24,6,2017-11-05,Camera Repairs,3670
+25,61,2005-01-12,Routine Maintenance,9600
+26,36,2000-03-26,General Repairs,6490
+27,94,2010-12-19,Routine Maintenance,2820
+28,2,2011-11-05,Software Update,7730
+29,22,2004-01-19,Routine Maintenance,1610
+30,28,2002-11-20,Routine Maintenance,2630
+31,84,2003-07-23,Software Management,1800
+32,100,2011-05-19,Inspection,1640
+33,57,2012-03-05,Sensors Repairs,1980
+34,25,2000-01-28,Routine Maintenance,8570
+35,10,2010-01-08,Camera Repairs,9460
+36,88,2010-10-31,Routine Maintenance,450
+37,73,2015-11-04,Software Management,1300
+38,96,2020-04-05,Inspection,1200
+39,8,2010-07-20,Routine Maintenance,7000
+40,67,2004-07-19,Wings Repairs,1730
+41,44,2001-03-15,Camera Repairs,2490
+42,42,2019-12-18,Inspection,3620
+43,20,2011-11-02,Body Repairs,6800
+44,86,2004-09-11,Routine Maintenance,4660
+45,28,2020-01-10,Routine Maintenance,3880
+46,62,2023-11-19,Wings Repairs,1820
+47,18,2024-03-04,Routine Maintenance,7440
+48,38,2022-02-20,General Repairs,5370
+49,75,2002-06-09,Routine Maintenance,4570
+50,44,2013-07-02,Routine Maintenance,1170
+51,12,2003-04-22,Software Update,9470
+52,38,2002-07-13,Cleaning,5480
+53,84,2012-01-17,Calibration,9330
+54,63,2012-08-03,Routine Maintenance,2940
+55,44,2017-03-24,Routine Maintenance,9130
+56,88,2016-03-22,Inspection,2270
+57,24,2020-04-29,Routine Maintenance,8760
+58,66,2021-01-12,Routine Maintenance,1330
+59,37,2022-05-09,Wings Repairs,2830
+60,71,2004-02-12,Wings Repairs,850
+61,45,2005-02-17,Inspection,6610
+62,80,2022-05-16,Software Update,5710
+63,33,2023-08-02,Battery Maintenance,8580
+64,96,2001-01-02,General Repairs,630
+65,46,2016-09-24,Software Management,2500
+66,26,2007-07-27,Battery Maintenance,5320
+67,2,2015-03-15,Routine Maintenance,1350
+68,20,2015-11-01,General Repairs,7080
+69,36,2019-09-07,Routine Maintenance,3880
+70,62,2000-04-16,Routine Maintenance,7120
+71,36,2015-11-11,Battery Maintenance,8910
+72,66,2008-09-27,Sensors Repairs,7890
+73,61,2003-08-27,Component Upgrades,6570
+74,85,2011-10-02,Routine Maintenance,260
+75,33,2024-05-26,Software Update,9670
+76,67,2020-09-23,Inspection,2060
+77,98,2012-07-06,Routine Maintenance,140
+78,43,2005-07-11,Routine Maintenance,4830
+79,98,2005-02-25,Software Update,5250
+80,48,2007-02-28,Cleaning,3130
+81,47,2014-11-24,Camera Repairs,3480
+82,63,2001-05-31,Battery Maintenance,4700
+83,52,2023-03-10,Body Repairs,8380
+84,19,2018-10-01,Routine Maintenance,9870
+85,61,2006-09-10,Battery Maintenance,9460
+86,28,2008-05-14,Routine Maintenance,2930
+87,37,2019-05-17,Cleaning,8120
+88,76,2022-12-14,Wings Repairs,4800
+89,7,2004-09-12,Software Update,8910
+90,93,2023-06-13,Battery Maintenance,1100
+91,85,2008-01-29,Inspection,3820
+92,2,2022-04-07,Routine Maintenance,6370
+93,45,2013-04-15,Software Update,3680
+94,88,2017-11-29,Body Repairs,5420
+95,11,2010-05-16,Routine Maintenance,6550
+96,37,2014-08-20,Routine Maintenance,6150
+97,19,2007-12-20,Software Update,220
+98,85,2018-09-23,General Repairs,2830
+99,77,2018-10-05,Calibration,2090
+100,98,2003-01-28,Body Repairs,8990
+101,82,2010-11-30,General Repairs,9830
+102,17,2005-02-04,Cleaning,9620
+103,91,2018-04-18,Software Update,5990
+104,30,2013-06-07,Inspection,9050
+105,8,2021-06-18,Firmware Update,2040
+106,37,2012-07-03,Battery Maintenance,3080
+107,41,2009-04-11,Routine Maintenance,2400
+108,86,2024-07-16,Inspection,9640
+109,44,2022-05-16,Cleaning,2320
+110,52,2017-05-15,Software Update,3990
+111,75,2018-05-02,Software Update,1390
+112,46,2007-11-27,Inspection,4820
+113,91,2003-08-07,Software Update,2790
+114,67,2020-01-26,Routine Maintenance,3790
+115,84,2017-06-17,Battery Maintenance,810
+116,29,2008-06-26,Calibration,6950
+117,93,2000-11-17,Wings Repairs,4790
+118,77,2012-02-28,Routine Maintenance,4770
+119,23,2011-11-15,Body Repairs,9300
+120,57,2001-11-14,Camera Repairs,1680
+121,15,2022-03-28,Battery Maintenance,3190
+122,32,2024-10-11,General Repairs,2380
+123,51,2017-05-01,Routine Maintenance,9870
+124,61,2012-05-17,Routine Maintenance,1380
+125,97,2010-06-15,Routine Maintenance,8670
+126,84,2022-03-30,Routine Maintenance,2010
+127,50,2013-02-13,Routine Maintenance,7280
+128,24,2015-09-16,Body Repairs,3130
+129,24,2023-03-25,Battery Maintenance,6910
+130,37,2011-02-24,Sensors Repairs,900
+131,23,2001-07-20,Routine Maintenance,1880
+132,34,2001-09-17,Camera Repairs,2550
+133,35,2017-11-20,Component Upgrades,3450
+134,29,2010-11-12,Software Management,7260
+135,16,2019-12-07,Routine Maintenance,5070
+136,50,2000-08-15,Routine Maintenance,2880
+137,74,2007-05-03,Routine Maintenance,9870
+138,51,2009-09-30,Routine Maintenance,6090
+139,13,2019-11-19,Routine Maintenance,4730
+140,47,2013-10-13,Routine Maintenance,8950
+141,38,2014-05-09,Wings Repairs,1350
+142,65,2022-08-29,Routine Maintenance,3090
+143,33,2009-12-20,Battery Maintenance,9280
+144,52,2013-02-27,Routine Maintenance,3280
+145,28,2021-02-14,Routine Maintenance,5240
+146,35,2006-11-13,Routine Maintenance,8510
+147,95,2013-10-27,General Repairs,5890
+148,19,2007-11-20,Routine Maintenance,1170
+149,12,2010-10-06,Routine Maintenance,3780
+150,39,2000-03-19,Routine Maintenance,1370
+151,84,2010-03-07,Routine Maintenance,1690
+152,88,2010-01-11,Battery Maintenance,4010
+153,63,2019-09-15,Body Repairs,1170
+154,84,2024-06-22,Software Update,2150
+155,26,2001-07-23,Routine Maintenance,2970
+156,78,2012-06-04,Component Upgrades,9580
+157,62,2020-01-09,Routine Maintenance,9660
+158,88,2021-11-22,Body Repairs,9600
+159,82,2020-05-16,General Repairs,1150
+160,71,2018-10-06,Routine Maintenance,6210
+161,40,2011-11-24,Camera Repairs,5510
+162,67,2010-01-31,Calibration,9900
+163,72,2022-02-08,Routine Maintenance,4440
+164,71,2014-06-29,Routine Maintenance,7680
+165,62,2018-12-08,Routine Maintenance,4010
+166,48,2018-03-05,Sensors Repairs,8530
+167,17,2010-05-11,Software Management,4560
+168,14,2004-12-19,General Repairs,9840
+169,94,2005-01-18,Routine Maintenance,6220
+170,26,2000-03-04,Sensors Repairs,110
+171,9,2012-04-26,General Repairs,8110
+172,37,2005-09-04,Body Repairs,7740
+173,62,2017-05-28,Calibration,1170
+174,94,2005-08-15,Routine Maintenance,7350
+175,81,2016-11-15,Body Repairs,2200
+176,33,2017-05-23,Firmware Update,8980
+177,57,2017-09-07,Cleaning,4340
+178,4,2018-12-12,Camera Repairs,4160
+179,34,2010-11-22,Routine Maintenance,9880
+180,44,2019-02-06,Calibration,110
+181,54,2007-10-03,Software Update,2930
+182,17,2009-03-21,Routine Maintenance,6260
+183,11,2004-07-06,Software Management,8590
+184,14,2010-10-21,Routine Maintenance,8210
+185,92,2020-10-24,Routine Maintenance,3640
+186,10,2018-03-27,Software Update,810
+187,50,2000-04-23,Sensors Repairs,8430
+188,2,2013-04-07,Body Repairs,7960
+189,57,2015-08-31,Routine Maintenance,5550
+190,46,2011-04-08,Firmware Update,7950
+191,2,2011-09-09,Routine Maintenance,8090
+192,30,2014-04-09,General Repairs,9330
+193,8,2015-01-25,Body Repairs,9100
+194,94,2019-10-25,Routine Maintenance,7310
+195,67,2005-03-03,Routine Maintenance,3620
+196,10,2006-06-08,Wings Repairs,7040
+197,67,2009-08-09,Software Management,6260
+198,81,2002-08-10,Software Management,8360
+199,11,2008-01-14,Routine Maintenance,4350
+200,92,2022-11-24,Routine Maintenance,4370

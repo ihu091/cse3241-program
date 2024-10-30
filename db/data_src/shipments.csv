@@ -1,0 +1,657 @@
+DeliveryID,RentalID,EstDeliveryDt,Status,Address,DroneID,Type,Distance
+1,1,2022-02-26,Completed,"948 Dogwood Dr., Dorchester, MA 02125",42,Delivery,9
+2,2,2020-05-06,Completed,"492 East Purple Finch Road, Parlin, NJ 08859",14,Delivery,9
+3,3,2022-09-19,Completed,"59 East Poor House Court, Lansdale, PA 19446",73,Delivery,8
+4,4,2022-12-06,Out For Delivery,"838 Morris Street, Amityville, NY 11701",13,Delivery,18
+5,5,2020-07-06,Completed,"7357 Lakeshore St., Scotch Plains, NJ 07076",89,Delivery,6
+6,6,2021-09-01,In Transit,"557 NW. Ohio Ave., Sun City, AZ 85351",91,Delivery,34
+7,7,2020-08-28,Completed,"159 Dunbar Street, Cumming, GA 30040",74,Delivery,40
+8,8,2019-11-04,Out For Delivery,"7681 Pleasant St., Baton Rouge, LA 70806",26,Return,14
+9,8,2021-08-01,Completed,"7681 Pleasant St., Baton Rouge, LA 70806",23,Delivery,14
+10,9,2022-06-06,Out For Delivery,"450 NE. Linda Ave., Saratoga Springs, NY 12866",79,Return,4
+11,9,2022-09-18,Completed,"450 NE. Linda Ave., Saratoga Springs, NY 12866",41,Delivery,4
+12,10,2024-06-25,Completed,"4 College Lane, Banning, CA 92220",60,Return,24
+13,10,2024-08-10,Completed,"4 College Lane, Banning, CA 92220",81,Delivery,24
+14,11,2020-10-20,Completed,"30 Shipley Road, Fort Washington, MD 20744",63,Delivery,0
+15,12,2020-04-16,Completed,"32 Courtland Dr., Carlisle, PA 17013",14,Delivery,36
+16,13,2023-12-28,Completed,"596 Bridgeton Street, Clarkston, MI 48348",6,Delivery,35
+17,14,2022-01-10,Cancelled,"7897 Ivy Street, Upper Darby, PA 19082",1,Return,40
+18,14,2022-10-29,Completed,"7897 Ivy Street, Upper Darby, PA 19082",18,Delivery,40
+19,15,2024-02-10,Processing,"95 Elm Lane, Eastlake, OH 44095",41,Return,16
+20,15,2024-10-25,Completed,"95 Elm Lane, Eastlake, OH 44095",71,Delivery,16
+21,16,2023-09-19,Completed,"9318 Market Street, Lafayette, IN 47905",34,Delivery,37
+22,17,2022-06-01,Completed,"404 Clay St., Racine, WI 53402",44,Return,12
+23,17,2024-09-08,Completed,"404 Clay St., Racine, WI 53402",99,Delivery,12
+24,18,2023-04-15,Completed,"450 NE. Linda Ave., Saratoga Springs, NY 12866",24,Delivery,7
+25,19,2023-01-11,Completed,"32 Courtland Dr., Carlisle, PA 17013",7,Return,31
+26,19,2023-02-18,Completed,"32 Courtland Dr., Carlisle, PA 17013",60,Delivery,31
+27,20,2021-11-16,Completed,"9244 Hill Drive, Crown Point, IN 46307",99,Delivery,31
+28,21,2020-01-26,Completed,"9836 Prospect Rd., Mount Laurel, NJ 08054",100,Return,11
+29,21,2020-02-20,Completed,"9836 Prospect Rd., Mount Laurel, NJ 08054",74,Delivery,11
+30,22,2019-07-27,Completed,"490 Rockwell St., Helena, MT 59601",76,Return,32
+31,22,2021-04-03,Completed,"490 Rockwell St., Helena, MT 59601",70,Delivery,32
+32,23,2020-06-28,Completed,"88 Alderwood Drive, Grandville, MI 49418",45,Delivery,2
+33,24,2021-07-26,Completed,"7530 Prairie Court, Suffolk, VA 23434",38,Delivery,15
+34,25,2022-01-24,Cancelled,"30 Shipley Road, Fort Washington, MD 20744",89,Delivery,6
+35,26,2019-12-07,Completed,"7658 Helen Dr., Garfield, NJ 07026",80,Return,6
+36,26,2022-09-04,Completed,"7658 Helen Dr., Garfield, NJ 07026",97,Delivery,6
+37,27,2020-05-12,Completed,"670 North Willow Ave., Indiana, PA 15701",87,Delivery,38
+38,28,2022-11-25,Completed,"338 Mayfield Lane, Williamstown, NJ 08094",84,Return,16
+39,28,2024-07-21,Completed,"338 Mayfield Lane, Williamstown, NJ 08094",53,Delivery,16
+40,29,2021-05-10,Processing,"804 Hickory St., Owings Mills, MD 21117",4,Return,0
+41,29,2021-05-21,Completed,"804 Hickory St., Owings Mills, MD 21117",34,Delivery,0
+42,30,2022-10-16,Processing,"7414 Mill Street, Pottstown, PA 19464",98,Delivery,32
+43,31,2021-05-05,Completed,"670 North Willow Ave., Indiana, PA 15701",47,Return,11
+44,31,2022-04-17,Completed,"670 North Willow Ave., Indiana, PA 15701",85,Delivery,11
+45,32,2023-11-29,Completed,"670 North Willow Ave., Indiana, PA 15701",27,Delivery,29
+46,33,2021-11-28,Completed,"319 Orchard St., Schererville, IN 46375",37,Delivery,9
+47,34,2019-08-22,Out For Delivery,"88 Alderwood Drive, Grandville, MI 49418",63,Return,6
+48,34,2022-01-29,Completed,"88 Alderwood Drive, Grandville, MI 49418",24,Delivery,6
+49,35,2019-08-12,Processing,"88 Alderwood Drive, Grandville, MI 49418",86,Delivery,19
+50,36,2023-12-22,Completed,"119 Corona Ave., Jamaica, NY 11432",61,Return,15
+51,36,2024-10-24,Completed,"119 Corona Ave., Jamaica, NY 11432",56,Delivery,15
+52,37,2021-04-26,Completed,"49 Fairfield Street, Lakewood, NJ 08701",84,Delivery,24
+53,38,2019-11-19,Completed,"9244 Hill Drive, Crown Point, IN 46307",3,Return,20
+54,38,2024-08-07,Completed,"9244 Hill Drive, Crown Point, IN 46307",91,Delivery,20
+55,39,2019-12-25,Completed,"596 Bridgeton Street, Clarkston, MI 48348",84,Delivery,2
+56,40,2024-02-14,Completed,"237 Glen Creek Street, Los Banos, CA 93635",59,Delivery,32
+57,41,2023-07-24,Completed,"129 West St., Ocoee, FL 34761",81,Return,34
+58,41,2024-03-06,Completed,"129 West St., Ocoee, FL 34761",41,Delivery,34
+59,42,2022-06-13,Processing,"9358 Shady Street, Woburn, MA 01801",63,Return,21
+60,42,2024-08-21,Completed,"9358 Shady Street, Woburn, MA 01801",94,Delivery,21
+61,43,2023-02-19,Completed,"903 Euclid Dr., New Hyde Park, NY 11040",9,Delivery,37
+62,44,2019-12-03,Out For Delivery,"8190 Carpenter St., Pearl, MS 39208",92,Return,1
+63,44,2021-12-03,Completed,"8190 Carpenter St., Pearl, MS 39208",62,Delivery,1
+64,45,2019-03-05,Cancelled,"450 NE. Linda Ave., Saratoga Springs, NY 12866",34,Delivery,21
+65,46,2020-04-25,Completed,"9876 North Homewood Rd., East Lansing, MI 48823",75,Delivery,26
+66,47,2021-05-28,Out For Delivery,"670 North Willow Ave., Indiana, PA 15701",27,Delivery,26
+67,48,2019-09-30,Completed,"596 Bridgeton Street, Clarkston, MI 48348",67,Delivery,33
+68,49,2020-07-23,Completed,"655 Howard Rd., Midlothian, VA 23112",12,Return,11
+69,49,2020-08-05,Completed,"655 Howard Rd., Midlothian, VA 23112",59,Delivery,11
+70,50,2021-11-06,In Transit,"9836 Prospect Rd., Mount Laurel, NJ 08054",3,Return,15
+71,50,2022-06-19,Completed,"9836 Prospect Rd., Mount Laurel, NJ 08054",33,Delivery,15
+72,51,2023-02-13,Completed,"461 Columbia Street, Saint Albans, NY 11412",52,Delivery,1
+73,52,2024-08-18,Completed,"2 South Cleveland Ave., Union, NJ 07083",12,Delivery,6
+74,53,2022-12-10,Cancelled,"7658 Helen Dr., Garfield, NJ 07026",94,Delivery,29
+75,54,2019-09-09,Completed,"7681 Pleasant St., Baton Rouge, LA 70806",98,Delivery,9
+76,55,2019-01-19,Processing,"557 NW. Ohio Ave., Sun City, AZ 85351",13,Delivery,18
+77,56,2021-03-02,Cancelled,"838 Morris Street, Amityville, NY 11701",29,Return,18
+78,56,2024-05-14,Completed,"838 Morris Street, Amityville, NY 11701",51,Delivery,18
+79,57,2023-10-26,Completed,"9836 Prospect Rd., Mount Laurel, NJ 08054",73,Return,11
+80,57,2024-04-12,Completed,"9836 Prospect Rd., Mount Laurel, NJ 08054",46,Delivery,11
+81,58,2020-03-19,Completed,"7807 East Beacon Ave., Apex, NC 27502",34,Delivery,5
+82,59,2023-04-16,Completed,"7681 Pleasant St., Baton Rouge, LA 70806",37,Delivery,12
+83,60,2023-06-04,Completed,"804 Hickory St., Owings Mills, MD 21117",91,Return,6
+84,60,2024-09-04,Completed,"804 Hickory St., Owings Mills, MD 21117",79,Delivery,6
+85,61,2019-10-16,Completed,"146 Mayfair Rd., Monroeville, PA 15146",42,Delivery,26
+86,62,2023-02-18,Completed,"7414 Mill Street, Pottstown, PA 19464",6,Delivery,21
+87,63,2021-09-20,Cancelled,"9876 North Homewood Rd., East Lansing, MI 48823",44,Delivery,4
+88,64,2022-11-06,Completed,"800 Buttonwood Street, Albany, NY 12203",67,Return,22
+89,64,2023-05-11,Completed,"800 Buttonwood Street, Albany, NY 12203",8,Delivery,22
+90,65,2019-03-17,Completed,"88 Alderwood Drive, Grandville, MI 49418",86,Return,25
+91,65,2023-01-11,Completed,"88 Alderwood Drive, Grandville, MI 49418",93,Delivery,25
+92,66,2020-07-08,Completed,"800 Buttonwood Street, Albany, NY 12203",72,Delivery,39
+93,67,2024-08-04,Completed,"88 Alderwood Drive, Grandville, MI 49418",69,Delivery,0
+94,68,2021-05-06,Completed,"7530 Prairie Court, Suffolk, VA 23434",31,Return,8
+95,68,2023-02-21,Completed,"7530 Prairie Court, Suffolk, VA 23434",31,Delivery,8
+96,69,2019-02-18,Completed,"75 West Elm Dr., Elkridge, MD 21075",33,Return,16
+97,69,2023-01-29,Completed,"75 West Elm Dr., Elkridge, MD 21075",10,Delivery,16
+98,70,2021-03-30,Completed,"96 Honey Creek St., Holly Springs, NC 27540",13,Delivery,10
+99,71,2020-01-14,Completed,"948 Dogwood Dr., Dorchester, MA 02125",17,Delivery,38
+100,72,2022-03-29,In Transit,"894 Military Court, Malvern, PA 19355",81,Return,4
+101,72,2023-12-18,Completed,"894 Military Court, Malvern, PA 19355",38,Delivery,4
+102,73,2023-01-01,Cancelled,"59 East Poor House Court, Lansdale, PA 19446",67,Return,38
+103,73,2024-08-20,Completed,"59 East Poor House Court, Lansdale, PA 19446",32,Delivery,38
+104,74,2021-11-03,Completed,"159 Dunbar Street, Cumming, GA 30040",35,Return,22
+105,74,2022-01-25,Completed,"159 Dunbar Street, Cumming, GA 30040",25,Delivery,22
+106,75,2021-12-08,Processing,"9244 Hill Drive, Crown Point, IN 46307",46,Delivery,27
+107,76,2022-08-02,Cancelled,"7838 E. Lake View Street, Naples, FL 34116",52,Return,31
+108,76,2023-09-30,Completed,"7838 E. Lake View Street, Naples, FL 34116",74,Delivery,31
+109,77,2024-02-03,Cancelled,"95 Elm Lane, Eastlake, OH 44095",68,Delivery,31
+110,78,2024-04-26,Completed,"4 College Lane, Banning, CA 92220",87,Delivery,0
+111,79,2019-12-07,Completed,"596 Bridgeton Street, Clarkston, MI 48348",81,Return,9
+112,79,2024-01-19,Completed,"596 Bridgeton Street, Clarkston, MI 48348",59,Delivery,9
+113,80,2020-06-15,In Transit,"9318 Market Street, Lafayette, IN 47905",50,Return,8
+114,80,2024-05-11,Completed,"9318 Market Street, Lafayette, IN 47905",67,Delivery,8
+115,81,2021-09-12,In Transit,"319 Orchard St., Schererville, IN 46375",48,Return,18
+116,81,2024-03-09,Completed,"319 Orchard St., Schererville, IN 46375",98,Delivery,18
+117,82,2024-05-04,Completed,"39 Del Monte Avenue, Rolling Meadows, IL 60008",48,Delivery,1
+118,83,2022-06-24,Completed,"9318 Market Street, Lafayette, IN 47905",13,Return,35
+119,83,2023-12-17,Completed,"9318 Market Street, Lafayette, IN 47905",78,Delivery,35
+120,84,2020-12-18,Completed,"7658 Helen Dr., Garfield, NJ 07026",23,Delivery,9
+121,85,2020-03-22,Out For Delivery,"319 Orchard St., Schererville, IN 46375",25,Delivery,4
+122,86,2022-12-09,Completed,"832 Shore Rd., Pueblo, CO 81001",5,Delivery,3
+123,87,2023-09-02,Processing,"7791 Valley St., Ravenna, OH 44266",2,Delivery,21
+124,88,2019-11-18,Completed,"8167 SE. Summit Ave., Fairmont, WV 26554",75,Delivery,7
+125,89,2019-11-06,Completed,"9836 Prospect Rd., Mount Laurel, NJ 08054",8,Return,1
+126,89,2023-11-19,Completed,"9836 Prospect Rd., Mount Laurel, NJ 08054",58,Delivery,1
+127,90,2023-06-15,Cancelled,"7530 Prairie Court, Suffolk, VA 23434",3,Delivery,9
+128,91,2022-05-12,Completed,"319 Orchard St., Schererville, IN 46375",8,Delivery,34
+129,92,2020-03-30,Out For Delivery,"146 Mayfair Rd., Monroeville, PA 15146",52,Delivery,11
+130,93,2024-02-17,In Transit,"596 Bridgeton Street, Clarkston, MI 48348",24,Delivery,17
+131,94,2019-11-25,Completed,"9318 Market Street, Lafayette, IN 47905",47,Delivery,40
+132,95,2022-12-19,Processing,"9836 Prospect Rd., Mount Laurel, NJ 08054",13,Delivery,32
+133,96,2020-09-14,Completed,"21 Carson Street, Warminster, PA 18974",4,Delivery,29
+134,97,2022-12-09,Completed,"319 Orchard St., Schererville, IN 46375",74,Delivery,38
+135,98,2020-10-11,Cancelled,"800 Buttonwood Street, Albany, NY 12203",63,Delivery,26
+136,99,2023-05-10,Out For Delivery,"7530 Prairie Court, Suffolk, VA 23434",26,Delivery,23
+137,100,2020-08-03,Completed,"800 Buttonwood Street, Albany, NY 12203",12,Delivery,13
+138,101,2024-10-03,Processing,"670 North Willow Ave., Indiana, PA 15701",87,Delivery,17
+139,102,2019-05-06,In Transit,"30 Shipley Road, Fort Washington, MD 20744",66,Return,10
+140,102,2021-06-15,Completed,"30 Shipley Road, Fort Washington, MD 20744",66,Delivery,10
+141,103,2021-09-28,Completed,"490 Rockwell St., Helena, MT 59601",71,Return,14
+142,103,2024-02-06,Completed,"490 Rockwell St., Helena, MT 59601",87,Delivery,14
+143,104,2021-10-04,Completed,"323 Branch Street, Sulphur, LA 70663",77,Delivery,37
+144,105,2022-06-05,Processing,"557 NW. Ohio Ave., Sun City, AZ 85351",35,Delivery,9
+145,106,2019-02-28,Cancelled,"7681 Pleasant St., Baton Rouge, LA 70806",49,Delivery,25
+146,107,2020-01-15,Completed,"635 Clark Ave., Farmington, MI 48331",45,Delivery,33
+147,108,2020-06-03,Completed,"32 Courtland Dr., Carlisle, PA 17013",24,Delivery,5
+148,109,2024-04-23,Completed,"338 Mayfield Lane, Williamstown, NJ 08094",17,Delivery,22
+149,110,2021-03-05,In Transit,"404 Clay St., Racine, WI 53402",52,Delivery,15
+150,111,2024-08-25,Cancelled,"7791 Valley St., Ravenna, OH 44266",67,Delivery,2
+151,112,2024-06-04,Completed,"7393 Overlook Lane, East Hartford, CT 06118",15,Delivery,12
+152,113,2024-01-20,In Transit,"323 Branch Street, Sulphur, LA 70663",10,Delivery,10
+153,114,2023-10-25,Completed,"96 Honey Creek St., Holly Springs, NC 27540",82,Return,37
+154,114,2024-09-12,Completed,"96 Honey Creek St., Holly Springs, NC 27540",15,Delivery,37
+155,115,2024-10-20,Completed,"894 Military Court, Malvern, PA 19355",2,Delivery,34
+156,116,2024-07-25,Completed,"146 Mayfair Rd., Monroeville, PA 15146",98,Return,3
+157,116,2024-08-15,Completed,"146 Mayfair Rd., Monroeville, PA 15146",9,Delivery,3
+158,117,2021-09-11,Completed,"96 Honey Creek St., Holly Springs, NC 27540",25,Delivery,38
+159,118,2022-02-15,Completed,"9358 Shady Street, Woburn, MA 01801",44,Delivery,0
+160,119,2024-10-13,Completed,"796 Creekside Ave., Bristol, CT 06010",33,Delivery,9
+161,120,2024-04-23,Out For Delivery,"9244 Hill Drive, Crown Point, IN 46307",10,Return,32
+162,120,2024-06-22,Completed,"9244 Hill Drive, Crown Point, IN 46307",45,Delivery,32
+163,121,2021-10-06,Out For Delivery,"832 Shore Rd., Pueblo, CO 81001",8,Return,27
+164,121,2022-11-27,Completed,"832 Shore Rd., Pueblo, CO 81001",69,Delivery,27
+165,122,2020-09-27,Completed,"7838 E. Lake View Street, Naples, FL 34116",56,Delivery,1
+166,123,2024-09-26,Completed,"7681 Pleasant St., Baton Rouge, LA 70806",63,Delivery,10
+167,124,2020-03-02,Cancelled,"7414 Mill Street, Pottstown, PA 19464",32,Delivery,12
+168,125,2021-03-13,Completed,"7357 Lakeshore St., Scotch Plains, NJ 07076",53,Delivery,23
+169,126,2022-07-29,Completed,"596 Bridgeton Street, Clarkston, MI 48348",57,Delivery,21
+170,127,2024-01-17,In Transit,"490 Rockwell St., Helena, MT 59601",92,Delivery,21
+171,128,2023-08-01,Out For Delivery,"796 Creekside Ave., Bristol, CT 06010",13,Delivery,24
+172,129,2021-12-15,Completed,"845 Wild Rose St., Merrillville, IN 46410",77,Delivery,29
+173,130,2024-04-28,Out For Delivery,"80 Highland Avenue, Covington, GA 30014",19,Delivery,12
+174,131,2019-01-29,Completed,"98 Beacon Lane, Wheeling, WV 26003",21,Return,9
+175,131,2024-10-29,Completed,"98 Beacon Lane, Wheeling, WV 26003",26,Delivery,9
+176,132,2020-04-20,Cancelled,"894 Military Court, Malvern, PA 19355",90,Return,39
+177,132,2023-05-16,Completed,"894 Military Court, Malvern, PA 19355",25,Delivery,39
+178,133,2022-05-24,Completed,"96 Honey Creek St., Holly Springs, NC 27540",82,Delivery,40
+179,134,2020-06-25,Cancelled,"804 Hickory St., Owings Mills, MD 21117",1,Delivery,27
+180,135,2020-12-08,Completed,"59 East Poor House Court, Lansdale, PA 19446",89,Return,5
+181,135,2024-04-12,Completed,"59 East Poor House Court, Lansdale, PA 19446",27,Delivery,5
+182,136,2020-10-22,Completed,"319 Orchard St., Schererville, IN 46375",5,Return,7
+183,136,2022-12-30,Completed,"319 Orchard St., Schererville, IN 46375",84,Delivery,7
+184,137,2023-09-26,Completed,"119 Corona Ave., Jamaica, NY 11432",29,Delivery,23
+185,138,2023-12-07,Completed,"9358 Shady Street, Woburn, MA 01801",58,Return,28
+186,138,2024-08-12,Completed,"9358 Shady Street, Woburn, MA 01801",89,Delivery,28
+187,139,2019-04-30,Completed,"670 North Willow Ave., Indiana, PA 15701",72,Delivery,11
+188,140,2021-10-28,Completed,"4 College Lane, Banning, CA 92220",88,Delivery,5
+189,141,2024-05-21,Completed,"146 Mayfair Rd., Monroeville, PA 15146",68,Return,35
+190,141,2024-08-09,Completed,"146 Mayfair Rd., Monroeville, PA 15146",76,Delivery,35
+191,142,2019-02-11,Completed,"75 West Elm Dr., Elkridge, MD 21075",56,Return,15
+192,142,2021-01-16,Completed,"75 West Elm Dr., Elkridge, MD 21075",83,Delivery,15
+193,143,2024-01-11,Completed,"800 Buttonwood Street, Albany, NY 12203",61,Delivery,39
+194,144,2020-03-08,Completed,"98 Beacon Lane, Wheeling, WV 26003",99,Delivery,8
+195,145,2022-02-21,In Transit,"894 Military Court, Malvern, PA 19355",40,Delivery,0
+196,146,2024-01-04,Completed,"490 Rockwell St., Helena, MT 59601",42,Delivery,39
+197,147,2022-06-01,In Transit,"2 South Cleveland Ave., Union, NJ 07083",14,Delivery,1
+198,148,2023-06-16,Completed,"670 North Willow Ave., Indiana, PA 15701",91,Delivery,24
+199,149,2020-03-18,Completed,"7791 Valley St., Ravenna, OH 44266",35,Delivery,35
+200,150,2024-08-06,Out For Delivery,"314 Squaw Creek Dr., Colorado Springs, CO 80911",54,Return,40
+201,150,2024-08-29,Completed,"314 Squaw Creek Dr., Colorado Springs, CO 80911",96,Delivery,40
+202,151,2019-07-02,Processing,"96 Honey Creek St., Holly Springs, NC 27540",57,Delivery,27
+203,152,2024-07-11,Cancelled,"323 Branch Street, Sulphur, LA 70663",43,Delivery,1
+204,153,2023-02-15,Cancelled,"49 Fairfield Street, Lakewood, NJ 08701",13,Delivery,35
+205,154,2022-02-12,Completed,"314 Squaw Creek Dr., Colorado Springs, CO 80911",27,Delivery,8
+206,155,2024-03-28,Out For Delivery,"404 Clay St., Racine, WI 53402",79,Delivery,5
+207,156,2022-05-14,Completed,"9836 Prospect Rd., Mount Laurel, NJ 08054",5,Delivery,9
+208,157,2024-09-13,Cancelled,"314 Squaw Creek Dr., Colorado Springs, CO 80911",9,Delivery,3
+209,158,2021-08-16,Completed,"4 College Lane, Banning, CA 92220",10,Delivery,26
+210,159,2024-10-13,Completed,"8 W. Golf Ave., Chaska, MN 55318",71,Delivery,16
+211,160,2020-01-29,Completed,"948 Dogwood Dr., Dorchester, MA 02125",76,Delivery,13
+212,161,2023-01-05,Completed,"7530 Prairie Court, Suffolk, VA 23434",85,Delivery,8
+213,162,2024-03-05,In Transit,"338 Mayfield Lane, Williamstown, NJ 08094",91,Return,36
+214,162,2024-07-24,Completed,"338 Mayfield Lane, Williamstown, NJ 08094",48,Delivery,36
+215,163,2024-09-05,Completed,"832 Shore Rd., Pueblo, CO 81001",33,Delivery,18
+216,164,2019-11-29,Completed,"596 Bridgeton Street, Clarkston, MI 48348",60,Return,30
+217,164,2024-05-10,Completed,"596 Bridgeton Street, Clarkston, MI 48348",54,Delivery,30
+218,165,2022-12-18,Completed,"655 Howard Rd., Midlothian, VA 23112",58,Return,12
+219,165,2023-09-18,Completed,"655 Howard Rd., Midlothian, VA 23112",58,Delivery,12
+220,166,2023-09-19,Cancelled,"319 Orchard St., Schererville, IN 46375",45,Delivery,4
+221,167,2021-04-25,In Transit,"655 Howard Rd., Midlothian, VA 23112",16,Delivery,33
+222,168,2019-08-04,Completed,"8 W. Golf Ave., Chaska, MN 55318",42,Delivery,20
+223,169,2024-01-17,Processing,"596 Bridgeton Street, Clarkston, MI 48348",69,Return,38
+224,169,2024-03-24,Completed,"596 Bridgeton Street, Clarkston, MI 48348",41,Delivery,38
+225,170,2020-03-25,In Transit,"7897 Ivy Street, Upper Darby, PA 19082",54,Delivery,9
+226,171,2023-04-17,Completed,"21 Carson Street, Warminster, PA 18974",49,Delivery,34
+227,172,2019-10-04,In Transit,"8607 Central Street, Delaware, OH 43015",4,Return,35
+228,172,2021-11-11,Completed,"8607 Central Street, Delaware, OH 43015",24,Delivery,35
+229,173,2021-02-12,Completed,"49 Fairfield Street, Lakewood, NJ 08701",24,Delivery,24
+230,174,2023-03-06,Completed,"190 Glendale Court, Upper Marlboro, MD 20772",65,Delivery,33
+231,175,2020-05-27,In Transit,"8167 SE. Summit Ave., Fairmont, WV 26554",45,Delivery,40
+232,176,2021-02-06,Completed,"80 Highland Avenue, Covington, GA 30014",98,Delivery,14
+233,177,2023-03-06,Completed,"655 Howard Rd., Midlothian, VA 23112",80,Delivery,3
+234,178,2022-02-25,Completed,"119 Corona Ave., Jamaica, NY 11432",35,Return,25
+235,178,2024-10-12,Completed,"119 Corona Ave., Jamaica, NY 11432",77,Delivery,25
+236,179,2023-07-25,Completed,"804 Hickory St., Owings Mills, MD 21117",72,Return,40
+237,179,2024-07-16,Completed,"804 Hickory St., Owings Mills, MD 21117",68,Delivery,40
+238,180,2020-06-05,Completed,"190 Glendale Court, Upper Marlboro, MD 20772",95,Delivery,40
+239,181,2020-12-10,Completed,"39 Del Monte Avenue, Rolling Meadows, IL 60008",95,Delivery,4
+240,182,2021-11-22,Completed,"8190 Carpenter St., Pearl, MS 39208",56,Delivery,9
+241,183,2023-03-09,Completed,"635 Clark Ave., Farmington, MI 48331",69,Delivery,10
+242,184,2019-05-08,Completed,"7393 Overlook Lane, East Hartford, CT 06118",14,Delivery,23
+243,185,2024-03-16,Cancelled,"404 Clay St., Racine, WI 53402",62,Delivery,32
+244,186,2021-08-11,Processing,"323 Branch Street, Sulphur, LA 70663",90,Delivery,10
+245,187,2020-04-17,Completed,"450 NE. Linda Ave., Saratoga Springs, NY 12866",78,Delivery,9
+246,188,2024-05-14,Cancelled,"21 Carson Street, Warminster, PA 18974",94,Delivery,11
+247,189,2021-05-11,In Transit,"98 Beacon Lane, Wheeling, WV 26003",13,Delivery,1
+248,190,2021-10-30,Out For Delivery,"845 Wild Rose St., Merrillville, IN 46410",32,Delivery,20
+249,191,2022-11-21,Completed,"7897 Ivy Street, Upper Darby, PA 19082",19,Delivery,26
+250,192,2019-09-13,Processing,"190 Glendale Court, Upper Marlboro, MD 20772",51,Delivery,28
+251,193,2020-12-31,Completed,"323 Branch Street, Sulphur, LA 70663",35,Delivery,7
+252,194,2021-12-18,Processing,"159 Dunbar Street, Cumming, GA 30040",67,Return,35
+253,194,2024-04-09,Completed,"159 Dunbar Street, Cumming, GA 30040",85,Delivery,35
+254,195,2022-09-03,Completed,"96 Honey Creek St., Holly Springs, NC 27540",63,Delivery,21
+255,196,2022-09-11,In Transit,"96 Honey Creek St., Holly Springs, NC 27540",69,Return,26
+256,196,2023-06-22,Completed,"96 Honey Creek St., Holly Springs, NC 27540",28,Delivery,26
+257,197,2021-05-01,Completed,"894 Military Court, Malvern, PA 19355",52,Delivery,17
+258,198,2020-05-27,Completed,"314 Squaw Creek Dr., Colorado Springs, CO 80911",90,Delivery,36
+259,199,2019-11-08,Completed,"948 Dogwood Dr., Dorchester, MA 02125",71,Delivery,8
+260,200,2019-12-06,In Transit,"7791 Valley St., Ravenna, OH 44266",46,Delivery,32
+261,201,2023-01-19,Out For Delivery,"190 Glendale Court, Upper Marlboro, MD 20772",90,Delivery,38
+262,202,2021-10-22,Cancelled,"461 Columbia Street, Saint Albans, NY 11412",88,Return,32
+263,202,2022-08-03,Completed,"461 Columbia Street, Saint Albans, NY 11412",55,Delivery,32
+264,203,2023-03-30,Completed,"319 Orchard St., Schererville, IN 46375",40,Delivery,9
+265,204,2020-06-06,Completed,"21 Carson Street, Warminster, PA 18974",82,Delivery,22
+266,205,2021-05-03,In Transit,"7791 Valley St., Ravenna, OH 44266",48,Delivery,4
+267,206,2020-01-08,Completed,"9876 North Homewood Rd., East Lansing, MI 48823",77,Return,9
+268,206,2020-12-14,Completed,"9876 North Homewood Rd., East Lansing, MI 48823",29,Delivery,9
+269,207,2020-06-19,Completed,"88 Alderwood Drive, Grandville, MI 49418",53,Return,34
+270,207,2021-07-13,Completed,"88 Alderwood Drive, Grandville, MI 49418",56,Delivery,34
+271,208,2021-03-25,Completed,"268 Mill Pond Road, Marshalltown, IA 50158",15,Delivery,4
+272,209,2022-06-29,Cancelled,"146 Mayfair Rd., Monroeville, PA 15146",89,Return,8
+273,209,2024-08-13,Completed,"146 Mayfair Rd., Monroeville, PA 15146",90,Delivery,8
+274,210,2019-06-30,In Transit,"2 South Cleveland Ave., Union, NJ 07083",50,Return,37
+275,210,2022-11-07,Completed,"2 South Cleveland Ave., Union, NJ 07083",26,Delivery,37
+276,211,2020-08-14,Completed,"557 NW. Ohio Ave., Sun City, AZ 85351",68,Delivery,19
+277,212,2020-07-06,Processing,"314 Squaw Creek Dr., Colorado Springs, CO 80911",88,Delivery,4
+278,213,2022-01-07,Completed,"635 Clark Ave., Farmington, MI 48331",57,Return,20
+279,213,2022-11-30,Completed,"635 Clark Ave., Farmington, MI 48331",47,Delivery,20
+280,214,2019-07-22,Completed,"7393 Overlook Lane, East Hartford, CT 06118",43,Delivery,32
+281,215,2022-05-13,Cancelled,"7791 Valley St., Ravenna, OH 44266",80,Delivery,4
+282,216,2023-01-15,Out For Delivery,"832 Shore Rd., Pueblo, CO 81001",58,Return,39
+283,216,2024-02-17,Completed,"832 Shore Rd., Pueblo, CO 81001",85,Delivery,39
+284,217,2021-11-16,Processing,"9244 Hill Drive, Crown Point, IN 46307",48,Delivery,38
+285,218,2019-08-13,Completed,"75 West Elm Dr., Elkridge, MD 21075",12,Delivery,35
+286,219,2021-07-07,Completed,"85 State St., La Vergne, TN 37086",73,Delivery,23
+287,220,2022-11-30,Completed,"796 Creekside Ave., Bristol, CT 06010",65,Delivery,20
+288,221,2019-10-19,Cancelled,"655 Howard Rd., Midlothian, VA 23112",90,Delivery,33
+289,222,2019-02-06,Completed,"670 North Willow Ave., Indiana, PA 15701",50,Return,8
+290,222,2020-10-18,Completed,"670 North Willow Ave., Indiana, PA 15701",68,Delivery,8
+291,223,2024-10-21,Completed,"4 College Lane, Banning, CA 92220",54,Return,30
+292,223,2024-10-26,Completed,"4 College Lane, Banning, CA 92220",98,Delivery,30
+293,224,2023-04-30,In Transit,"832 Shore Rd., Pueblo, CO 81001",51,Delivery,36
+294,225,2022-10-20,Completed,"323 Branch Street, Sulphur, LA 70663",91,Delivery,17
+295,226,2023-10-27,Cancelled,"319 Orchard St., Schererville, IN 46375",27,Delivery,37
+296,227,2023-10-16,Cancelled,"121 Inverness Court, Pasadena, MD 21122",95,Delivery,9
+297,228,2021-02-05,Completed,"804 Hickory St., Owings Mills, MD 21117",77,Return,30
+298,228,2023-09-19,Completed,"804 Hickory St., Owings Mills, MD 21117",73,Delivery,30
+299,229,2022-02-25,Out For Delivery,"49 Fairfield Street, Lakewood, NJ 08701",70,Delivery,15
+300,230,2022-02-06,Completed,"7393 Overlook Lane, East Hartford, CT 06118",38,Delivery,4
+301,231,2022-08-09,Completed,"557 NW. Ohio Ave., Sun City, AZ 85351",63,Delivery,38
+302,232,2023-02-21,Out For Delivery,"59 East Poor House Court, Lansdale, PA 19446",75,Delivery,14
+303,233,2024-09-24,Completed,"98 Beacon Lane, Wheeling, WV 26003",14,Delivery,39
+304,234,2024-07-12,Completed,"7791 Valley St., Ravenna, OH 44266",52,Return,11
+305,234,2024-08-08,Completed,"7791 Valley St., Ravenna, OH 44266",12,Delivery,11
+306,235,2022-12-09,Completed,"596 Bridgeton Street, Clarkston, MI 48348",66,Delivery,5
+307,236,2022-06-26,Completed,"557 NW. Ohio Ave., Sun City, AZ 85351",47,Delivery,12
+308,237,2019-07-31,Completed,"338 Mayfield Lane, Williamstown, NJ 08094",54,Delivery,18
+309,238,2022-08-25,Completed,"635 Clark Ave., Farmington, MI 48331",83,Return,24
+310,238,2024-10-01,Completed,"635 Clark Ave., Farmington, MI 48331",29,Delivery,24
+311,239,2020-07-22,Processing,"7357 Lakeshore St., Scotch Plains, NJ 07076",48,Delivery,33
+312,240,2023-09-17,Out For Delivery,"635 Clark Ave., Farmington, MI 48331",41,Return,14
+313,240,2024-05-26,Completed,"635 Clark Ave., Farmington, MI 48331",35,Delivery,14
+314,241,2020-07-04,Completed,"4 College Lane, Banning, CA 92220",90,Delivery,23
+315,242,2020-09-10,Completed,"894 Military Court, Malvern, PA 19355",47,Delivery,37
+316,243,2022-07-27,Out For Delivery,"635 Clark Ave., Farmington, MI 48331",73,Return,27
+317,243,2023-07-20,Completed,"635 Clark Ave., Farmington, MI 48331",19,Delivery,27
+318,244,2020-07-18,Completed,"596 Bridgeton Street, Clarkston, MI 48348",28,Delivery,35
+319,245,2024-01-01,Processing,"227 South Ridge Drive, Apopka, FL 32703",18,Delivery,21
+320,246,2022-12-01,Completed,"21 Carson Street, Warminster, PA 18974",68,Delivery,27
+321,247,2023-07-23,Cancelled,"2 South Cleveland Ave., Union, NJ 07083",30,Return,11
+322,247,2023-09-12,Completed,"2 South Cleveland Ave., Union, NJ 07083",74,Delivery,11
+323,248,2020-06-19,Completed,"7838 E. Lake View Street, Naples, FL 34116",13,Delivery,11
+324,249,2020-11-16,Cancelled,"7530 Prairie Court, Suffolk, VA 23434",100,Delivery,13
+325,250,2023-12-29,Cancelled,"95 Elm Lane, Eastlake, OH 44095",41,Delivery,0
+326,251,2024-04-24,Completed,"832 Shore Rd., Pueblo, CO 81001",5,Delivery,34
+327,252,2022-11-23,In Transit,"596 Bridgeton Street, Clarkston, MI 48348",48,Delivery,1
+328,253,2019-08-18,Completed,"7681 Pleasant St., Baton Rouge, LA 70806",71,Delivery,18
+329,254,2019-11-15,Completed,"75 West Elm Dr., Elkridge, MD 21075",80,Delivery,29
+330,255,2024-06-01,Completed,"8496 NW. Cobblestone St., Jamestown, NY 14701",45,Delivery,17
+331,256,2021-04-30,Processing,"655 Howard Rd., Midlothian, VA 23112",7,Delivery,37
+332,257,2021-02-02,Cancelled,"845 Wild Rose St., Merrillville, IN 46410",33,Return,32
+333,257,2021-08-26,Completed,"845 Wild Rose St., Merrillville, IN 46410",5,Delivery,32
+334,258,2020-02-24,Completed,"338 Mayfield Lane, Williamstown, NJ 08094",97,Delivery,6
+335,259,2020-01-02,Processing,"635 Clark Ave., Farmington, MI 48331",69,Return,31
+336,259,2022-07-20,Completed,"635 Clark Ave., Farmington, MI 48331",76,Delivery,31
+337,260,2022-11-06,Cancelled,"903 Euclid Dr., New Hyde Park, NY 11040",72,Delivery,33
+338,261,2022-06-27,Completed,"7681 Pleasant St., Baton Rouge, LA 70806",66,Delivery,10
+339,262,2020-04-15,In Transit,"670 North Willow Ave., Indiana, PA 15701",82,Delivery,38
+340,263,2019-04-07,Completed,"314 Squaw Creek Dr., Colorado Springs, CO 80911",7,Delivery,9
+341,264,2020-09-05,Completed,"7658 Helen Dr., Garfield, NJ 07026",87,Delivery,10
+342,265,2022-08-06,Completed,"9032 Grand Dr., Leesburg, VA 20175",41,Return,5
+343,265,2023-11-12,Completed,"9032 Grand Dr., Leesburg, VA 20175",83,Delivery,5
+344,266,2021-03-10,In Transit,"845 Wild Rose St., Merrillville, IN 46410",92,Delivery,26
+345,267,2019-03-28,Completed,"9876 North Homewood Rd., East Lansing, MI 48823",15,Delivery,37
+346,268,2021-06-19,Completed,"845 Wild Rose St., Merrillville, IN 46410",77,Delivery,5
+347,269,2021-06-07,Completed,"655 Howard Rd., Midlothian, VA 23112",30,Delivery,27
+348,270,2024-10-05,Out For Delivery,"7807 East Beacon Ave., Apex, NC 27502",13,Delivery,11
+349,271,2022-03-07,Completed,"832 Shore Rd., Pueblo, CO 81001",25,Return,16
+350,271,2023-02-06,Completed,"832 Shore Rd., Pueblo, CO 81001",60,Delivery,16
+351,272,2021-04-05,Completed,"894 Military Court, Malvern, PA 19355",56,Return,24
+352,272,2024-05-11,Completed,"894 Military Court, Malvern, PA 19355",33,Delivery,24
+353,273,2023-10-18,Completed,"7414 Mill Street, Pottstown, PA 19464",71,Delivery,24
+354,274,2022-12-16,In Transit,"655 Howard Rd., Midlothian, VA 23112",19,Return,11
+355,274,2023-09-06,Completed,"655 Howard Rd., Midlothian, VA 23112",42,Delivery,11
+356,275,2020-01-12,Out For Delivery,"800 Buttonwood Street, Albany, NY 12203",50,Delivery,37
+357,276,2021-09-18,In Transit,"8167 SE. Summit Ave., Fairmont, WV 26554",83,Delivery,0
+358,277,2021-10-07,Completed,"7838 E. Lake View Street, Naples, FL 34116",79,Return,33
+359,277,2022-01-03,Completed,"7838 E. Lake View Street, Naples, FL 34116",25,Delivery,33
+360,278,2023-10-31,Processing,"450 NE. Linda Ave., Saratoga Springs, NY 12866",16,Return,9
+361,278,2024-06-28,Completed,"450 NE. Linda Ave., Saratoga Springs, NY 12866",15,Delivery,9
+362,279,2021-06-16,Cancelled,"30 Shipley Road, Fort Washington, MD 20744",13,Delivery,16
+363,280,2020-08-27,Completed,"894 Military Court, Malvern, PA 19355",20,Delivery,38
+364,281,2023-09-30,Completed,"237 Glen Creek Street, Los Banos, CA 93635",66,Delivery,34
+365,282,2021-11-02,Cancelled,"4 College Lane, Banning, CA 92220",66,Delivery,36
+366,283,2024-07-09,Completed,"21 Carson Street, Warminster, PA 18974",41,Delivery,34
+367,284,2019-09-30,Completed,"75 West Elm Dr., Elkridge, MD 21075",53,Delivery,35
+368,285,2020-03-25,Processing,"237 Glen Creek Street, Los Banos, CA 93635",66,Delivery,24
+369,286,2024-03-15,Processing,"845 Wild Rose St., Merrillville, IN 46410",83,Delivery,20
+370,287,2023-10-24,Completed,"8167 SE. Summit Ave., Fairmont, WV 26554",49,Delivery,33
+371,288,2023-05-08,Completed,"800 Buttonwood Street, Albany, NY 12203",44,Delivery,5
+372,289,2023-01-02,Completed,"7897 Ivy Street, Upper Darby, PA 19082",47,Delivery,10
+373,290,2019-06-23,Completed,"159 Dunbar Street, Cumming, GA 30040",73,Return,21
+374,290,2021-11-09,Completed,"159 Dunbar Street, Cumming, GA 30040",74,Delivery,21
+375,291,2020-08-22,Completed,"268 Mill Pond Road, Marshalltown, IA 50158",32,Delivery,11
+376,292,2019-01-26,Cancelled,"314 Squaw Creek Dr., Colorado Springs, CO 80911",36,Delivery,39
+377,293,2019-07-02,Completed,"190 Glendale Court, Upper Marlboro, MD 20772",64,Return,30
+378,293,2022-11-13,Completed,"190 Glendale Court, Upper Marlboro, MD 20772",53,Delivery,30
+379,294,2022-07-25,Completed,"314 Squaw Creek Dr., Colorado Springs, CO 80911",75,Return,39
+380,294,2024-10-14,Completed,"314 Squaw Creek Dr., Colorado Springs, CO 80911",58,Delivery,39
+381,295,2019-01-21,Completed,"21 Carson Street, Warminster, PA 18974",4,Delivery,34
+382,296,2023-12-09,Processing,"404 Clay St., Racine, WI 53402",51,Delivery,27
+383,297,2019-05-30,Completed,"121 Inverness Court, Pasadena, MD 21122",40,Delivery,3
+384,298,2023-04-09,Completed,"804 Hickory St., Owings Mills, MD 21117",64,Return,23
+385,298,2024-06-08,Completed,"804 Hickory St., Owings Mills, MD 21117",33,Delivery,23
+386,299,2022-09-12,In Transit,"49 Fairfield Street, Lakewood, NJ 08701",21,Delivery,23
+387,300,2019-05-11,Out For Delivery,"450 NE. Linda Ave., Saratoga Springs, NY 12866",29,Return,40
+388,300,2019-12-12,Completed,"450 NE. Linda Ave., Saratoga Springs, NY 12866",85,Delivery,40
+389,301,2021-02-07,Completed,"323 Branch Street, Sulphur, LA 70663",10,Return,11
+390,301,2022-11-25,Completed,"323 Branch Street, Sulphur, LA 70663",28,Delivery,11
+391,302,2024-08-14,Cancelled,"948 Dogwood Dr., Dorchester, MA 02125",72,Return,27
+392,302,2024-10-22,Completed,"948 Dogwood Dr., Dorchester, MA 02125",77,Delivery,27
+393,303,2022-09-10,Out For Delivery,"8190 Carpenter St., Pearl, MS 39208",27,Return,15
+394,303,2023-07-13,Completed,"8190 Carpenter St., Pearl, MS 39208",82,Delivery,15
+395,304,2022-04-29,Completed,"492 East Purple Finch Road, Parlin, NJ 08859",24,Return,7
+396,304,2024-07-03,Completed,"492 East Purple Finch Road, Parlin, NJ 08859",59,Delivery,7
+397,305,2022-03-25,In Transit,"30 Shipley Road, Fort Washington, MD 20744",21,Delivery,18
+398,306,2023-11-04,Processing,"9876 North Homewood Rd., East Lansing, MI 48823",67,Return,5
+399,306,2023-11-12,Completed,"9876 North Homewood Rd., East Lansing, MI 48823",24,Delivery,5
+400,307,2023-02-05,Out For Delivery,"450 NE. Linda Ave., Saratoga Springs, NY 12866",58,Delivery,36
+401,308,2020-07-25,Completed,"8607 Central Street, Delaware, OH 43015",83,Delivery,35
+402,309,2023-11-21,Cancelled,"7897 Ivy Street, Upper Darby, PA 19082",57,Return,31
+403,309,2023-12-03,Completed,"7897 Ivy Street, Upper Darby, PA 19082",35,Delivery,31
+404,310,2023-12-11,Out For Delivery,"8167 SE. Summit Ave., Fairmont, WV 26554",8,Delivery,8
+405,311,2020-02-12,Completed,"30 Shipley Road, Fort Washington, MD 20744",17,Delivery,14
+406,312,2019-04-12,Cancelled,"129 West St., Ocoee, FL 34761",85,Delivery,21
+407,313,2021-08-30,Completed,"21 Carson Street, Warminster, PA 18974",2,Delivery,23
+408,314,2019-10-21,Processing,"7791 Valley St., Ravenna, OH 44266",7,Delivery,10
+409,315,2023-03-03,Completed,"9318 Market Street, Lafayette, IN 47905",26,Delivery,12
+410,316,2020-04-01,Out For Delivery,"832 Shore Rd., Pueblo, CO 81001",17,Return,25
+411,316,2021-07-19,Completed,"832 Shore Rd., Pueblo, CO 81001",42,Delivery,25
+412,317,2020-09-05,Completed,"4 College Lane, Banning, CA 92220",79,Return,7
+413,317,2021-08-10,Completed,"4 College Lane, Banning, CA 92220",52,Delivery,7
+414,318,2020-03-09,Completed,"9876 North Homewood Rd., East Lansing, MI 48823",34,Delivery,16
+415,319,2020-09-02,Processing,"7658 Helen Dr., Garfield, NJ 07026",5,Return,20
+416,319,2022-08-22,Completed,"7658 Helen Dr., Garfield, NJ 07026",11,Delivery,20
+417,320,2020-11-03,Processing,"88 Alderwood Drive, Grandville, MI 49418",40,Return,23
+418,320,2021-03-13,Completed,"88 Alderwood Drive, Grandville, MI 49418",5,Delivery,23
+419,321,2021-01-25,Completed,"7838 E. Lake View Street, Naples, FL 34116",97,Delivery,6
+420,322,2022-12-31,Processing,"796 Creekside Ave., Bristol, CT 06010",26,Return,9
+421,322,2023-03-27,Completed,"796 Creekside Ave., Bristol, CT 06010",60,Delivery,9
+422,323,2019-04-24,Completed,"490 Rockwell St., Helena, MT 59601",40,Delivery,35
+423,324,2022-03-29,Completed,"7357 Lakeshore St., Scotch Plains, NJ 07076",61,Delivery,0
+424,325,2020-05-01,Completed,"237 Glen Creek Street, Los Banos, CA 93635",62,Delivery,12
+425,326,2019-05-01,Completed,"655 Howard Rd., Midlothian, VA 23112",37,Delivery,3
+426,327,2022-12-21,Completed,"75 West Elm Dr., Elkridge, MD 21075",64,Delivery,16
+427,328,2021-04-12,Completed,"832 Shore Rd., Pueblo, CO 81001",86,Delivery,27
+428,329,2022-06-26,Completed,"4 College Lane, Banning, CA 92220",84,Return,16
+429,329,2022-07-04,Completed,"4 College Lane, Banning, CA 92220",88,Delivery,16
+430,330,2019-04-10,Processing,"10 Eagle Lane, Utica, NY 13501",99,Return,39
+431,330,2024-07-27,Completed,"10 Eagle Lane, Utica, NY 13501",79,Delivery,39
+432,331,2020-07-11,Cancelled,"796 Creekside Ave., Bristol, CT 06010",4,Delivery,2
+433,332,2023-07-29,Completed,"670 North Willow Ave., Indiana, PA 15701",28,Return,24
+434,332,2023-09-27,Completed,"670 North Willow Ave., Indiana, PA 15701",94,Delivery,24
+435,333,2020-05-29,In Transit,"21 Carson Street, Warminster, PA 18974",21,Delivery,25
+436,334,2019-12-23,Completed,"227 South Ridge Drive, Apopka, FL 32703",20,Return,39
+437,334,2021-12-29,Completed,"227 South Ridge Drive, Apopka, FL 32703",88,Delivery,39
+438,335,2021-10-09,Completed,"404 Clay St., Racine, WI 53402",69,Delivery,21
+439,336,2022-04-23,Completed,"7658 Helen Dr., Garfield, NJ 07026",64,Delivery,0
+440,337,2021-08-04,Out For Delivery,"7897 Ivy Street, Upper Darby, PA 19082",1,Return,14
+441,337,2022-03-09,Completed,"7897 Ivy Street, Upper Darby, PA 19082",76,Delivery,14
+442,338,2023-06-03,Completed,"85 State St., La Vergne, TN 37086",35,Delivery,18
+443,339,2019-12-28,Out For Delivery,"98 Beacon Lane, Wheeling, WV 26003",72,Delivery,31
+444,340,2022-09-02,Completed,"8 W. Golf Ave., Chaska, MN 55318",36,Return,10
+445,340,2022-09-28,Completed,"8 W. Golf Ave., Chaska, MN 55318",19,Delivery,10
+446,341,2022-05-22,Completed,"75 West Elm Dr., Elkridge, MD 21075",81,Delivery,6
+447,342,2021-07-24,Completed,"7681 Pleasant St., Baton Rouge, LA 70806",29,Delivery,17
+448,343,2024-03-11,Cancelled,"338 Mayfield Lane, Williamstown, NJ 08094",72,Delivery,36
+449,344,2019-09-11,Processing,"9032 Grand Dr., Leesburg, VA 20175",75,Delivery,10
+450,345,2021-08-20,Completed,"8167 SE. Summit Ave., Fairmont, WV 26554",30,Delivery,37
+451,346,2019-01-03,Completed,"655 Howard Rd., Midlothian, VA 23112",8,Delivery,3
+452,347,2022-12-26,Completed,"894 Military Court, Malvern, PA 19355",12,Delivery,15
+453,348,2021-03-08,Completed,"8167 SE. Summit Ave., Fairmont, WV 26554",68,Return,17
+454,348,2023-02-12,Completed,"8167 SE. Summit Ave., Fairmont, WV 26554",10,Delivery,17
+455,349,2022-04-25,Completed,"8607 Central Street, Delaware, OH 43015",63,Delivery,13
+456,350,2022-04-04,Completed,"49 Fairfield Street, Lakewood, NJ 08701",3,Delivery,15
+457,351,2023-10-28,Cancelled,"7807 East Beacon Ave., Apex, NC 27502",29,Delivery,26
+458,352,2020-12-03,Completed,"39 Del Monte Avenue, Rolling Meadows, IL 60008",75,Delivery,10
+459,353,2022-09-22,Completed,"832 Shore Rd., Pueblo, CO 81001",98,Delivery,31
+460,354,2021-10-26,Processing,"39 Del Monte Avenue, Rolling Meadows, IL 60008",8,Delivery,17
+461,355,2021-07-12,Cancelled,"404 Clay St., Racine, WI 53402",53,Delivery,7
+462,356,2020-07-21,Out For Delivery,"30 Shipley Road, Fort Washington, MD 20744",80,Delivery,27
+463,357,2024-09-07,Completed,"894 Military Court, Malvern, PA 19355",96,Delivery,12
+464,358,2024-08-13,Processing,"8 W. Golf Ave., Chaska, MN 55318",80,Delivery,39
+465,359,2021-09-10,In Transit,"655 Howard Rd., Midlothian, VA 23112",44,Return,37
+466,359,2023-05-16,Completed,"655 Howard Rd., Midlothian, VA 23112",79,Delivery,37
+467,360,2023-03-30,Completed,"894 Military Court, Malvern, PA 19355",2,Delivery,30
+468,361,2021-11-07,Processing,"8167 SE. Summit Ave., Fairmont, WV 26554",84,Delivery,14
+469,362,2023-02-18,In Transit,"8607 Central Street, Delaware, OH 43015",53,Delivery,7
+470,363,2020-01-19,Completed,"88 Alderwood Drive, Grandville, MI 49418",57,Return,3
+471,363,2023-09-06,Completed,"88 Alderwood Drive, Grandville, MI 49418",66,Delivery,3
+472,364,2021-02-26,Cancelled,"190 Glendale Court, Upper Marlboro, MD 20772",21,Delivery,23
+473,365,2021-09-19,Completed,"8607 Central Street, Delaware, OH 43015",43,Delivery,1
+474,366,2020-09-01,Completed,"96 Honey Creek St., Holly Springs, NC 27540",9,Delivery,20
+475,367,2023-09-04,Completed,"96 Honey Creek St., Holly Springs, NC 27540",46,Return,37
+476,367,2024-08-01,Completed,"96 Honey Creek St., Holly Springs, NC 27540",1,Delivery,37
+477,368,2021-12-04,Out For Delivery,"832 Shore Rd., Pueblo, CO 81001",58,Delivery,33
+478,369,2020-03-15,Completed,"894 Military Court, Malvern, PA 19355",62,Delivery,11
+479,370,2021-11-10,Completed,"75 West Elm Dr., Elkridge, MD 21075",13,Delivery,19
+480,371,2024-04-05,Completed,"9032 Grand Dr., Leesburg, VA 20175",33,Delivery,6
+481,372,2022-07-05,Completed,"7838 E. Lake View Street, Naples, FL 34116",2,Delivery,38
+482,373,2021-06-27,In Transit,"894 Military Court, Malvern, PA 19355",64,Delivery,13
+483,374,2021-01-27,Out For Delivery,"59 East Poor House Court, Lansdale, PA 19446",44,Delivery,8
+484,375,2020-10-15,Completed,"461 Columbia Street, Saint Albans, NY 11412",77,Delivery,4
+485,376,2020-09-18,Completed,"7897 Ivy Street, Upper Darby, PA 19082",35,Delivery,11
+486,377,2022-12-20,Out For Delivery,"32 Courtland Dr., Carlisle, PA 17013",30,Return,25
+487,377,2023-03-24,Completed,"32 Courtland Dr., Carlisle, PA 17013",60,Delivery,25
+488,378,2021-08-24,Completed,"39 Del Monte Avenue, Rolling Meadows, IL 60008",77,Delivery,31
+489,379,2020-04-29,Completed,"832 Shore Rd., Pueblo, CO 81001",31,Return,33
+490,379,2024-09-30,Completed,"832 Shore Rd., Pueblo, CO 81001",88,Delivery,33
+491,380,2020-11-14,Processing,"323 Branch Street, Sulphur, LA 70663",13,Delivery,7
+492,381,2019-08-10,Cancelled,"227 South Ridge Drive, Apopka, FL 32703",80,Delivery,27
+493,382,2020-11-08,Completed,"804 Hickory St., Owings Mills, MD 21117",88,Return,12
+494,382,2024-09-19,Completed,"804 Hickory St., Owings Mills, MD 21117",72,Delivery,12
+495,383,2021-12-23,Completed,"49 Fairfield Street, Lakewood, NJ 08701",74,Delivery,35
+496,384,2022-04-25,Cancelled,"800 Buttonwood Street, Albany, NY 12203",95,Delivery,7
+497,385,2024-02-04,Completed,"557 NW. Ohio Ave., Sun City, AZ 85351",12,Return,6
+498,385,2024-07-25,Completed,"557 NW. Ohio Ave., Sun City, AZ 85351",68,Delivery,6
+499,386,2023-08-03,Completed,"7838 E. Lake View Street, Naples, FL 34116",60,Delivery,34
+500,387,2024-03-06,Completed,"670 North Willow Ave., Indiana, PA 15701",99,Delivery,23
+501,388,2021-04-21,Completed,"21 Carson Street, Warminster, PA 18974",21,Delivery,28
+502,389,2023-08-21,Completed,"804 Hickory St., Owings Mills, MD 21117",67,Delivery,4
+503,390,2019-10-05,Completed,"8607 Central Street, Delaware, OH 43015",31,Delivery,35
+504,391,2021-04-20,Completed,"796 Creekside Ave., Bristol, CT 06010",72,Return,38
+505,391,2023-02-19,Completed,"796 Creekside Ave., Bristol, CT 06010",50,Delivery,38
+506,392,2023-01-06,In Transit,"190 Glendale Court, Upper Marlboro, MD 20772",12,Delivery,17
+507,393,2019-01-10,Out For Delivery,"338 Mayfield Lane, Williamstown, NJ 08094",73,Return,16
+508,393,2024-03-28,Completed,"338 Mayfield Lane, Williamstown, NJ 08094",62,Delivery,16
+509,394,2019-11-11,Completed,"404 Clay St., Racine, WI 53402",30,Delivery,25
+510,395,2019-10-20,Completed,"30 Shipley Road, Fort Washington, MD 20744",68,Return,27
+511,395,2021-02-17,Completed,"30 Shipley Road, Fort Washington, MD 20744",74,Delivery,27
+512,396,2019-03-16,Out For Delivery,"88 Alderwood Drive, Grandville, MI 49418",69,Return,12
+513,396,2019-08-03,Completed,"88 Alderwood Drive, Grandville, MI 49418",29,Delivery,12
+514,397,2019-01-27,Completed,"7791 Valley St., Ravenna, OH 44266",23,Delivery,5
+515,398,2019-12-18,Completed,"85 State St., La Vergne, TN 37086",70,Return,1
+516,398,2023-11-09,Completed,"85 State St., La Vergne, TN 37086",72,Delivery,1
+517,399,2024-10-11,Cancelled,"39 Del Monte Avenue, Rolling Meadows, IL 60008",34,Return,22
+518,399,2024-10-25,Completed,"39 Del Monte Avenue, Rolling Meadows, IL 60008",72,Delivery,22
+519,400,2023-04-05,Processing,"80 Highland Avenue, Covington, GA 30014",96,Delivery,23
+520,401,2020-01-04,Cancelled,"404 Clay St., Racine, WI 53402",84,Delivery,19
+521,402,2019-09-20,Cancelled,"49 Fairfield Street, Lakewood, NJ 08701",60,Delivery,17
+522,403,2021-01-26,Completed,"323 Branch Street, Sulphur, LA 70663",54,Delivery,7
+523,404,2024-08-05,Completed,"119 Corona Ave., Jamaica, NY 11432",79,Delivery,20
+524,405,2023-01-12,In Transit,"894 Military Court, Malvern, PA 19355",85,Delivery,25
+525,406,2021-02-27,Completed,"9836 Prospect Rd., Mount Laurel, NJ 08054",75,Return,24
+526,406,2023-10-08,Completed,"9836 Prospect Rd., Mount Laurel, NJ 08054",71,Delivery,24
+527,407,2020-04-08,Completed,"903 Euclid Dr., New Hyde Park, NY 11040",52,Return,0
+528,407,2024-04-19,Completed,"903 Euclid Dr., New Hyde Park, NY 11040",69,Delivery,0
+529,408,2020-04-27,In Transit,"85 State St., La Vergne, TN 37086",18,Return,15
+530,408,2020-10-29,Completed,"85 State St., La Vergne, TN 37086",36,Delivery,15
+531,409,2023-08-06,Out For Delivery,"800 Buttonwood Street, Albany, NY 12203",21,Delivery,2
+532,410,2024-06-02,Completed,"119 Corona Ave., Jamaica, NY 11432",1,Delivery,30
+533,411,2020-05-19,Completed,"894 Military Court, Malvern, PA 19355",26,Return,31
+534,411,2022-10-20,Completed,"894 Military Court, Malvern, PA 19355",3,Delivery,31
+535,412,2019-06-15,Completed,"323 Branch Street, Sulphur, LA 70663",47,Delivery,19
+536,413,2023-07-15,In Transit,"30 Shipley Road, Fort Washington, MD 20744",86,Delivery,8
+537,414,2021-08-14,Out For Delivery,"838 Morris Street, Amityville, NY 11701",34,Return,14
+538,414,2022-06-16,Completed,"838 Morris Street, Amityville, NY 11701",46,Delivery,14
+539,415,2019-08-03,Completed,"21 Carson Street, Warminster, PA 18974",31,Delivery,2
+540,416,2021-10-13,Completed,"800 Buttonwood Street, Albany, NY 12203",29,Return,5
+541,416,2022-12-08,Completed,"800 Buttonwood Street, Albany, NY 12203",12,Delivery,5
+542,417,2023-04-04,Cancelled,"8167 SE. Summit Ave., Fairmont, WV 26554",48,Return,39
+543,417,2023-06-30,Completed,"8167 SE. Summit Ave., Fairmont, WV 26554",70,Delivery,39
+544,418,2019-12-16,Out For Delivery,"10 Eagle Lane, Utica, NY 13501",37,Delivery,29
+545,419,2021-11-11,Out For Delivery,"492 East Purple Finch Road, Parlin, NJ 08859",50,Delivery,15
+546,420,2021-03-01,Completed,"800 Buttonwood Street, Albany, NY 12203",66,Delivery,8
+547,421,2019-05-16,Completed,"7838 E. Lake View Street, Naples, FL 34116",30,Delivery,16
+548,422,2023-02-26,Completed,"39 Del Monte Avenue, Rolling Meadows, IL 60008",70,Return,4
+549,422,2023-05-22,Completed,"39 Del Monte Avenue, Rolling Meadows, IL 60008",44,Delivery,4
+550,423,2021-02-15,Completed,"95 Elm Lane, Eastlake, OH 44095",40,Delivery,21
+551,424,2022-04-24,Completed,"30 Shipley Road, Fort Washington, MD 20744",95,Delivery,17
+552,425,2022-09-06,Completed,"894 Military Court, Malvern, PA 19355",64,Delivery,40
+553,426,2020-02-19,Completed,"7897 Ivy Street, Upper Darby, PA 19082",57,Return,28
+554,426,2024-07-06,Completed,"7897 Ivy Street, Upper Darby, PA 19082",57,Delivery,28
+555,427,2024-06-26,Cancelled,"96 Honey Creek St., Holly Springs, NC 27540",65,Delivery,40
+556,428,2019-08-16,Completed,"838 Morris Street, Amityville, NY 11701",5,Return,2
+557,428,2024-08-04,Completed,"838 Morris Street, Amityville, NY 11701",30,Delivery,2
+558,429,2021-07-18,Processing,"8190 Carpenter St., Pearl, MS 39208",82,Return,23
+559,429,2022-06-22,Completed,"8190 Carpenter St., Pearl, MS 39208",12,Delivery,23
+560,430,2022-10-25,Completed,"8190 Carpenter St., Pearl, MS 39208",81,Delivery,4
+561,431,2023-01-10,Completed,"7791 Valley St., Ravenna, OH 44266",66,Return,40
+562,431,2023-12-16,Completed,"7791 Valley St., Ravenna, OH 44266",84,Delivery,40
+563,432,2019-01-23,Completed,"7897 Ivy Street, Upper Darby, PA 19082",93,Delivery,1
+564,433,2020-11-14,Completed,"492 East Purple Finch Road, Parlin, NJ 08859",73,Return,8
+565,433,2024-10-03,Completed,"492 East Purple Finch Road, Parlin, NJ 08859",36,Delivery,8
+566,434,2020-01-08,Completed,"894 Military Court, Malvern, PA 19355",78,Return,30
+567,434,2024-01-31,Completed,"894 Military Court, Malvern, PA 19355",89,Delivery,30
+568,435,2023-09-19,Completed,"39 Del Monte Avenue, Rolling Meadows, IL 60008",36,Return,34
+569,435,2023-12-05,Completed,"39 Del Monte Avenue, Rolling Meadows, IL 60008",26,Delivery,34
+570,436,2022-02-26,Completed,"404 Clay St., Racine, WI 53402",90,Delivery,2
+571,437,2019-10-17,Completed,"30 Shipley Road, Fort Washington, MD 20744",23,Return,29
+572,437,2022-11-17,Completed,"30 Shipley Road, Fort Washington, MD 20744",17,Delivery,29
+573,438,2024-09-26,Completed,"9876 North Homewood Rd., East Lansing, MI 48823",80,Delivery,15
+574,439,2020-11-21,Completed,"7414 Mill Street, Pottstown, PA 19464",90,Return,13
+575,439,2021-11-03,Completed,"7414 Mill Street, Pottstown, PA 19464",12,Delivery,13
+576,440,2020-12-31,Completed,"2 South Cleveland Ave., Union, NJ 07083",16,Delivery,7
+577,441,2020-11-02,Completed,"8167 SE. Summit Ave., Fairmont, WV 26554",16,Delivery,13
+578,442,2023-05-14,Completed,"557 NW. Ohio Ave., Sun City, AZ 85351",85,Return,32
+579,442,2024-09-05,Completed,"557 NW. Ohio Ave., Sun City, AZ 85351",14,Delivery,32
+580,443,2022-02-24,Completed,"7791 Valley St., Ravenna, OH 44266",67,Return,18
+581,443,2023-01-08,Completed,"7791 Valley St., Ravenna, OH 44266",11,Delivery,18
+582,444,2023-12-22,Completed,"75 West Elm Dr., Elkridge, MD 21075",35,Delivery,37
+583,445,2023-01-27,Completed,"9318 Market Street, Lafayette, IN 47905",34,Delivery,20
+584,446,2024-05-31,Completed,"338 Mayfield Lane, Williamstown, NJ 08094",84,Return,35
+585,446,2024-08-10,Completed,"338 Mayfield Lane, Williamstown, NJ 08094",35,Delivery,35
+586,447,2021-08-20,Completed,"450 NE. Linda Ave., Saratoga Springs, NY 12866",87,Delivery,28
+587,448,2021-10-03,Completed,"7897 Ivy Street, Upper Darby, PA 19082",76,Delivery,26
+588,449,2023-06-30,Processing,"557 NW. Ohio Ave., Sun City, AZ 85351",65,Return,18
+589,449,2024-07-22,Completed,"557 NW. Ohio Ave., Sun City, AZ 85351",98,Delivery,18
+590,450,2020-07-18,Processing,"7681 Pleasant St., Baton Rouge, LA 70806",84,Delivery,29
+591,451,2024-09-11,Completed,"268 Mill Pond Road, Marshalltown, IA 50158",92,Delivery,21
+592,452,2020-04-29,Completed,"227 South Ridge Drive, Apopka, FL 32703",45,Delivery,36
+593,453,2021-09-25,Completed,"88 Alderwood Drive, Grandville, MI 49418",100,Delivery,34
+594,454,2023-09-26,Completed,"190 Glendale Court, Upper Marlboro, MD 20772",58,Delivery,37
+595,455,2023-01-05,Completed,"32 Courtland Dr., Carlisle, PA 17013",83,Return,27
+596,455,2023-11-02,Completed,"32 Courtland Dr., Carlisle, PA 17013",36,Delivery,27
+597,456,2023-08-29,Completed,"59 East Poor House Court, Lansdale, PA 19446",34,Delivery,40
+598,457,2022-04-20,In Transit,"655 Howard Rd., Midlothian, VA 23112",73,Delivery,27
+599,458,2020-04-10,Cancelled,"30 Shipley Road, Fort Washington, MD 20744",96,Return,33
+600,458,2022-10-02,Completed,"30 Shipley Road, Fort Washington, MD 20744",66,Delivery,33
+601,459,2023-06-20,Completed,"159 Dunbar Street, Cumming, GA 30040",55,Delivery,30
+602,460,2021-03-29,Cancelled,"9358 Shady Street, Woburn, MA 01801",62,Delivery,36
+603,461,2021-08-04,Completed,"655 Howard Rd., Midlothian, VA 23112",9,Delivery,35
+604,462,2019-03-06,Completed,"95 Elm Lane, Eastlake, OH 44095",66,Delivery,11
+605,463,2022-05-31,Out For Delivery,"9836 Prospect Rd., Mount Laurel, NJ 08054",84,Delivery,8
+606,464,2020-03-07,Cancelled,"10 Eagle Lane, Utica, NY 13501",10,Delivery,29
+607,465,2021-11-21,Cancelled,"8167 SE. Summit Ave., Fairmont, WV 26554",50,Delivery,4
+608,466,2020-03-19,Completed,"655 Howard Rd., Midlothian, VA 23112",65,Return,34
+609,466,2022-05-30,Completed,"655 Howard Rd., Midlothian, VA 23112",43,Delivery,34
+610,467,2023-03-29,In Transit,"121 Inverness Court, Pasadena, MD 21122",44,Delivery,19
+611,468,2023-10-25,Completed,"129 West St., Ocoee, FL 34761",83,Delivery,11
+612,469,2024-08-05,Completed,"338 Mayfield Lane, Williamstown, NJ 08094",95,Return,12
+613,469,2024-10-25,Completed,"338 Mayfield Lane, Williamstown, NJ 08094",70,Delivery,12
+614,470,2021-01-10,Processing,"7897 Ivy Street, Upper Darby, PA 19082",14,Return,3
+615,470,2021-04-15,Completed,"7897 Ivy Street, Upper Darby, PA 19082",63,Delivery,3
+616,471,2019-04-27,Completed,"7897 Ivy Street, Upper Darby, PA 19082",2,Return,40
+617,471,2024-06-30,Completed,"7897 Ivy Street, Upper Darby, PA 19082",84,Delivery,40
+618,472,2021-09-22,Completed,"32 Courtland Dr., Carlisle, PA 17013",97,Delivery,40
+619,473,2023-04-01,Completed,"894 Military Court, Malvern, PA 19355",16,Delivery,12
+620,474,2019-03-19,Completed,"227 South Ridge Drive, Apopka, FL 32703",88,Delivery,28
+621,475,2023-12-11,Completed,"10 Eagle Lane, Utica, NY 13501",75,Delivery,33
+622,476,2021-05-01,Completed,"159 Dunbar Street, Cumming, GA 30040",18,Delivery,29
+623,477,2021-07-28,Out For Delivery,"39 Del Monte Avenue, Rolling Meadows, IL 60008",15,Return,29
+624,477,2022-11-02,Completed,"39 Del Monte Avenue, Rolling Meadows, IL 60008",69,Delivery,29
+625,478,2020-04-03,Completed,"557 NW. Ohio Ave., Sun City, AZ 85351",65,Return,17
+626,478,2022-06-15,Completed,"557 NW. Ohio Ave., Sun City, AZ 85351",85,Delivery,17
+627,479,2021-06-13,Completed,"800 Buttonwood Street, Albany, NY 12203",30,Delivery,40
+628,480,2019-02-21,Cancelled,"237 Glen Creek Street, Los Banos, CA 93635",51,Delivery,12
+629,481,2023-01-10,Completed,"557 NW. Ohio Ave., Sun City, AZ 85351",12,Return,25
+630,481,2024-02-29,Completed,"557 NW. Ohio Ave., Sun City, AZ 85351",98,Delivery,25
+631,482,2023-11-28,Out For Delivery,"7807 East Beacon Ave., Apex, NC 27502",34,Delivery,22
+632,483,2023-06-10,Completed,"32 Courtland Dr., Carlisle, PA 17013",66,Delivery,33
+633,484,2020-12-12,Processing,"119 Corona Ave., Jamaica, NY 11432",81,Delivery,24
+634,485,2020-08-05,Completed,"30 Shipley Road, Fort Washington, MD 20744",35,Delivery,26
+635,486,2024-01-28,Completed,"7838 E. Lake View Street, Naples, FL 34116",90,Return,20
+636,486,2024-08-16,Completed,"7838 E. Lake View Street, Naples, FL 34116",74,Delivery,20
+637,487,2023-05-30,Cancelled,"461 Columbia Street, Saint Albans, NY 11412",50,Return,14
+638,487,2023-06-26,Completed,"461 Columbia Street, Saint Albans, NY 11412",72,Delivery,14
+639,488,2024-03-30,Completed,"85 State St., La Vergne, TN 37086",6,Delivery,2
+640,489,2023-05-24,Completed,"119 Corona Ave., Jamaica, NY 11432",18,Delivery,36
+641,490,2023-10-27,Completed,"838 Morris Street, Amityville, NY 11701",6,Return,12
+642,490,2024-04-25,Completed,"838 Morris Street, Amityville, NY 11701",77,Delivery,12
+643,491,2020-06-12,Completed,"95 Elm Lane, Eastlake, OH 44095",83,Delivery,36
+644,492,2024-10-15,Completed,"635 Clark Ave., Farmington, MI 48331",42,Return,36
+645,492,2024-10-28,Completed,"635 Clark Ave., Farmington, MI 48331",92,Delivery,36
+646,493,2022-12-26,Completed,"9836 Prospect Rd., Mount Laurel, NJ 08054",73,Return,35
+647,493,2023-01-16,Completed,"9836 Prospect Rd., Mount Laurel, NJ 08054",27,Delivery,35
+648,494,2023-05-08,Completed,"490 Rockwell St., Helena, MT 59601",87,Delivery,35
+649,495,2024-03-18,Completed,"800 Buttonwood Street, Albany, NY 12203",14,Delivery,3
+650,496,2023-06-26,Processing,"49 Fairfield Street, Lakewood, NJ 08701",10,Delivery,21
+651,497,2020-07-26,In Transit,"8167 SE. Summit Ave., Fairmont, WV 26554",39,Return,38
+652,497,2024-07-05,Completed,"8167 SE. Summit Ave., Fairmont, WV 26554",39,Delivery,38
+653,498,2024-08-08,Completed,"98 Beacon Lane, Wheeling, WV 26003",82,Return,17
+654,498,2024-09-12,Completed,"98 Beacon Lane, Wheeling, WV 26003",2,Delivery,17
+655,499,2022-01-31,Completed,"49 Fairfield Street, Lakewood, NJ 08701",54,Delivery,37
+656,500,2024-05-29,In Transit,"8167 SE. Summit Ave., Fairmont, WV 26554",88,Delivery,20
