@@ -1,9 +1,12 @@
 import Menus.MainMenu;
 import java.util.Scanner;
+import Database.DatabaseManager;
 
 public class App {
 
     public static void main(String[] args) throws Exception {
+        DatabaseManager.initializeDB(DatabaseManager.DB_PATH_STR);
+        
         run();
     }
 
